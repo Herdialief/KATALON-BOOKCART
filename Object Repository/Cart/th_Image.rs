@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_Image</name>
+   <tag></tag>
+   <elementGuidId>e3c22f4a-55d8-474d-a26d-beb941acd542</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>th.mat-mdc-header-cell.mdc-data-table__header-cell.cdk-header-cell.cdk-column-image.mat-column-image.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear cart'])[1]/following::th[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=columnheader[name=&quot;Image&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>6211cc0a-dd10-4c9c-be5b-19b0a3bc5df3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>columnheader</value>
+      <webElementGuid>b7128cbf-074f-4e9b-b3ec-dd390ff3577d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-header-cell mdc-data-table__header-cell cdk-header-cell cdk-column-image mat-column-image ng-star-inserted</value>
+      <webElementGuid>54425113-c00a-4d62-9989-0921a16f1a8a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Image</value>
+      <webElementGuid>407edb31-6b61-4e1b-bdf7-e6693c024206</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-shoppingcart[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content my-3 ng-star-inserted&quot;]/table[@class=&quot;mat-mdc-table mdc-data-table__table cdk-table&quot;]/thead[@class=&quot;ng-star-inserted&quot;]/tr[@class=&quot;mat-mdc-header-row mdc-data-table__header-row cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;mat-mdc-header-cell mdc-data-table__header-cell cdk-header-cell cdk-column-image mat-column-image ng-star-inserted&quot;]</value>
+      <webElementGuid>18f9949c-eebd-4bea-8048-e87c4103778d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear cart'])[1]/following::th[1]</value>
+      <webElementGuid>9fa66d11-c219-44e7-aa01-f119172b72c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shopping cart'])[1]/following::th[1]</value>
+      <webElementGuid>701e7653-7416-40af-b339-ddf09dd8009c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/preceding::th[1]</value>
+      <webElementGuid>ee76f7b9-567f-4c36-9377-d2619cbfee21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/preceding::th[2]</value>
+      <webElementGuid>a3a14d06-f1a9-4474-88ab-17fda16056c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Image']/parent::*</value>
+      <webElementGuid>9f91afd3-badb-4d14-aff7-d8d972578e12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th</value>
+      <webElementGuid>9731cc33-7209-4ae3-9ac7-bd7b8f59ec67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Image' or . = 'Image')]</value>
+      <webElementGuid>cee6bd17-24bb-484f-8fe8-f135c0f86d20</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

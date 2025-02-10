@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-icon_add_circle</name>
+   <tag></tag>
+   <elementGuidId>ba3ba126-6a94-43df-ab0a-692201830d55</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='₹213.00'])[1]/following::mat-icon[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=row[name=&quot;Harry Potter and the Prisoner of Azkaban ₹213.00 1 ₹213.00&quot;i] >> internal:role=button >> nth=1</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-icon</value>
+      <webElementGuid>76c62750-6c6b-4c4b-890f-3233925411e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>67b27714-8089-4e24-8c3c-8204f22c70c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color</value>
+      <webElementGuid>cc58a17f-dd2e-4e63-b450-ba5cecdcede9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>621bab12-35ff-4dcb-b5f0-f17253f1d63a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-mat-icon-type</name>
+      <type>Main</type>
+      <value>font</value>
+      <webElementGuid>795c697f-bd0d-4fd6-ab8e-dc3fce060a48</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>add_circle</value>
+      <webElementGuid>ddd8a212-feee-496a-b883-b99a64054a2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-shoppingcart[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content my-3 ng-star-inserted&quot;]/table[@class=&quot;mat-mdc-table mdc-data-table__table cdk-table&quot;]/tbody[@class=&quot;mdc-data-table__content ng-star-inserted&quot;]/tr[@class=&quot;mat-mdc-row mdc-data-table__row cdk-row ng-star-inserted&quot;]/td[@class=&quot;mat-mdc-cell mdc-data-table__cell cdk-cell cdk-column-quantity mat-column-quantity ng-star-inserted&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/div[3]/button[@class=&quot;mdc-icon-button mat-mdc-icon-button mat-warn mat-mdc-button-base&quot;]/mat-icon[@class=&quot;mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color&quot;]</value>
+      <webElementGuid>0c47749e-0049-4226-aa66-dc317f6b628f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹213.00'])[1]/following::mat-icon[2]</value>
+      <webElementGuid>b9afadad-4de4-4aa8-9c6e-c5d8b8abea07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Harry Potter and the Prisoner of Azkaban'])[1]/following::mat-icon[2]</value>
+      <webElementGuid>2074a662-534d-400f-b58f-119a8c25c819</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹213.00'])[2]/preceding::mat-icon[1]</value>
+      <webElementGuid>b1a063c2-60e8-49e0-8bfd-3f04e46fa918</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cart Total:'])[1]/preceding::mat-icon[2]</value>
+      <webElementGuid>d47608aa-bcc5-41ea-8e2e-c073cd6c1c51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[4]/div/div[3]/button/mat-icon</value>
+      <webElementGuid>339e13a4-4029-4e71-9d48-5c2685f43c3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-icon[(text() = 'add_circle' or . = 'add_circle')]</value>
+      <webElementGuid>889804ee-29de-4d87-baa9-3cddbf94d1be</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>th_Quantity</name>
+   <tag></tag>
+   <elementGuidId>38487e93-bc28-4f42-92d3-08945f9db2b6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>th.mat-mdc-header-cell.mdc-data-table__header-cell.cdk-header-cell.cdk-column-quantity.mat-column-quantity.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/following::th[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=columnheader[name=&quot;Quantity&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>th</value>
+      <webElementGuid>c9d991ec-7e59-499d-9a3b-e54cc0dc84ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>columnheader</value>
+      <webElementGuid>d831c5a4-c3a0-4586-bbd6-874000f4eaf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-header-cell mdc-data-table__header-cell cdk-header-cell cdk-column-quantity mat-column-quantity ng-star-inserted</value>
+      <webElementGuid>96a41405-e2da-4c1f-bc30-929488844cd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Quantity</value>
+      <webElementGuid>6283a090-77d7-46f7-b1f8-d6ca7d935030</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-shoppingcart[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card my-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content my-3 ng-star-inserted&quot;]/table[@class=&quot;mat-mdc-table mdc-data-table__table cdk-table&quot;]/thead[@class=&quot;ng-star-inserted&quot;]/tr[@class=&quot;mat-mdc-header-row mdc-data-table__header-row cdk-header-row ng-star-inserted&quot;]/th[@class=&quot;mat-mdc-header-cell mdc-data-table__header-cell cdk-header-cell cdk-column-quantity mat-column-quantity ng-star-inserted&quot;]</value>
+      <webElementGuid>53046ad7-a636-4e3b-b933-7303c62aa152</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/following::th[1]</value>
+      <webElementGuid>06aa1ce7-593a-4a2a-96b2-fe7a2bb92ad7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::th[2]</value>
+      <webElementGuid>1049d3da-69df-47a7-9117-f33637b15488</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/preceding::th[1]</value>
+      <webElementGuid>d3ae5796-705e-40c4-bcc1-beabcbc96656</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Action'])[1]/preceding::th[2]</value>
+      <webElementGuid>d879f79b-f0ff-42ee-8d5e-f4cbc7f3a748</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Quantity']/parent::*</value>
+      <webElementGuid>77201895-fce5-428c-ac43-93c1ee1557db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//th[4]</value>
+      <webElementGuid>c3d99060-8bc1-4bf5-9e4b-7825fd4efc9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//th[(text() = 'Quantity' or . = 'Quantity')]</value>
+      <webElementGuid>ee81bd37-9886-4804-9123-1e5176422db4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

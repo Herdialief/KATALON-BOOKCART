@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-error_Password do not match</name>
+   <tag></tag>
+   <elementGuidId>ebd42816-caff-4cde-b1c8-4112c3225840</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-mdc-error-6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-error[@id='mat-mdc-error-6']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Password do not match&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-error</value>
+      <webElementGuid>cc0eb123-c3d2-465f-a018-0062b8996602</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-atomic</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>81972fdb-3813-4a9f-8d39-559202cd4416</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-form-field-error mat-mdc-form-field-bottom-align ng-star-inserted</value>
+      <webElementGuid>0c198688-57bc-4e65-ac25-b66f03ed6d58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>polite</value>
+      <webElementGuid>4f52bbcf-cfd0-49a7-b4c5-db0248da0953</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-mdc-error-6</value>
+      <webElementGuid>4e1cad31-ac40-4973-b47a-4b2c64208d78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Password do not match </value>
+      <webElementGuid>46200b9a-cb6e-4154-aa02-64d5aefeb71a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-mdc-error-6&quot;)</value>
+      <webElementGuid>2b52c5a1-6a0b-4cff-9c16-da803a4ba29f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id='mat-mdc-error-6']</value>
+      <webElementGuid>9c532b57-284b-44e4-a596-ac22ac27be00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm Password'])[1]/following::mat-error[1]</value>
+      <webElementGuid>a18edc67-cef5-4c0f-b934-b1158c711a0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::mat-error[2]</value>
+      <webElementGuid>a002664a-81fe-4519-9e8b-7f9e8fc7e80d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gender:'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>55c3b5fd-f3ca-46a0-98f5-e76d29061cad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Male'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>222b494a-fbfb-4375-b10a-db62c8830182</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Password do not match']/parent::*</value>
+      <webElementGuid>05c194e3-1a74-43aa-b105-8bcbe3b138bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field[5]/div[2]/div/mat-error</value>
+      <webElementGuid>86949b46-0fe2-4bca-8663-837a970e5a70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id = 'mat-mdc-error-6' and (text() = ' Password do not match ' or . = ' Password do not match ')]</value>
+      <webElementGuid>f33ea82c-96e5-44a4-a4a4-c54b38b97c82</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

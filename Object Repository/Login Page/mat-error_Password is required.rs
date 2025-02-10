@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-error_Password is required</name>
+   <tag></tag>
+   <elementGuidId>910f18e6-1d9e-4ae1-af47-3923c20081c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-error[@id='mat-mdc-error-8']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-mdc-error-8</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'mat-mdc-error-8' and (text() = 'Password is required' or . = 'Password is required')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Password is required&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-error</value>
+      <webElementGuid>d47d3f33-b266-4656-b23c-6b9f3529f0b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-atomic</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>3ccaa990-8688-49bb-acb7-d3774c74c780</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-form-field-error mat-mdc-form-field-bottom-align ng-tns-c508571215-9 ng-star-inserted</value>
+      <webElementGuid>e37cac8b-7a8b-4b1e-810d-074bc346b1c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>polite</value>
+      <webElementGuid>29fb872f-dcd8-4bc4-86c2-a302258af5e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-mdc-error-8</value>
+      <webElementGuid>2bc2a74a-d714-4d0b-b11d-6bb5b42e9d5e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Password is required</value>
+      <webElementGuid>f78f2092-4760-4f19-b9a5-5324dec49dad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-mdc-error-8&quot;)</value>
+      <webElementGuid>900770eb-a533-418b-9e12-4e8174b7e6dc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id='mat-mdc-error-8']</value>
+      <webElementGuid>f7cd9a28-8c4c-476c-8428-013ee566bbcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::mat-error[1]</value>
+      <webElementGuid>75c77ae5-b9ba-4098-a7ee-71f83b2bff48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username is required'])[1]/following::mat-error[1]</value>
+      <webElementGuid>f735e589-df24-4d1a-be4e-7a39add41f87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[4]/preceding::mat-error[1]</value>
+      <webElementGuid>662f71ac-c9cb-49cb-9519-1ffbb509c74a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='API details'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>07013a4c-4755-45b3-86e5-7879dd133e49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Password is required']/parent::*</value>
+      <webElementGuid>a92c02d6-933e-4f9b-a027-dc990a184132</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field[2]/div[2]/div/mat-error</value>
+      <webElementGuid>fe221039-5a9a-491c-87ba-e5037f15b0ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id = 'mat-mdc-error-8' and (text() = 'Password is required' or . = 'Password is required')]</value>
+      <webElementGuid>42f70b7b-a53b-4ca3-b4ad-7daa27b6b5d0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mat-error_Last Name is required</name>
+   <tag></tag>
+   <elementGuidId>945642e6-6cf1-4631-8f2a-370a6919c2d7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-mdc-error-1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-error[@id='mat-mdc-error-1']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Last Name is required&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mat-error</value>
+      <webElementGuid>63cb934d-0946-412b-ac82-be505daa24bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-atomic</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f2ad58fa-a591-4379-bbeb-f5e8624328b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-form-field-error mat-mdc-form-field-bottom-align ng-tns-c508571215-4 ng-star-inserted</value>
+      <webElementGuid>ffd73809-27fa-4575-b7fd-3c7ac4b6e39b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-live</name>
+      <type>Main</type>
+      <value>polite</value>
+      <webElementGuid>84ba9dad-bc2f-49c4-adb7-e8bc334ec303</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-mdc-error-1</value>
+      <webElementGuid>d2bc2812-0f82-4afd-a78d-712d8c08efd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Last Name is required</value>
+      <webElementGuid>99745ed0-d353-4773-8b2b-2cb0cc614ae6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-mdc-error-1&quot;)</value>
+      <webElementGuid>643ff17d-298a-4b90-ac89-4d9f2966737a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id='mat-mdc-error-1']</value>
+      <webElementGuid>9ced4c88-6913-490c-9fc1-002f7d716219</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last name'])[1]/following::mat-error[1]</value>
+      <webElementGuid>016d7a14-b728-4d82-9536-263077507816</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name is required'])[1]/following::mat-error[1]</value>
+      <webElementGuid>b52429fc-ba5b-4421-b124-45a544536a6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User name'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>f288ec89-1a29-47a1-8e04-29473d006372</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Name is required'])[1]/preceding::mat-error[1]</value>
+      <webElementGuid>96bb3126-d915-44e8-86cd-8b1ca925d795</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Last Name is required']/parent::*</value>
+      <webElementGuid>7a548ab3-d5ac-4255-8b12-bcffd8738b0c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field[2]/div[2]/div/mat-error</value>
+      <webElementGuid>bdf5dec5-cd6f-43c2-b29f-5b86f125e4ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mat-error[@id = 'mat-mdc-error-1' and (text() = 'Last Name is required' or . = 'Last Name is required')]</value>
+      <webElementGuid>5cb2ce2e-a8ad-46be-b1d4-6d109cfcc4ae</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
