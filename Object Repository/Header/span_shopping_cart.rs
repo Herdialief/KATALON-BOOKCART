@@ -6,12 +6,12 @@
    <elementGuidId>a2e52761-81ae-4f35-9f5a-d4be4b12fe2b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[3]/button/span[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>button >> internal:has-text=&quot;shopping_cart0&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>91cb9bab-5fb6-4e55-82ad-37187c60cee6</webElementGuid>
+      <webElementGuid>ae0a15fb-1afb-4b6a-98c8-861f26b9c304</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-mdc-button-touch-target</value>
-      <webElementGuid>aad948cc-2439-4c5f-9de9-9fe23e40142d</webElementGuid>
+      <webElementGuid>6ac87873-adae-4430-a860-d1b8a0aaf40a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-nav-bar[@class=&quot;mat-elevation-z6&quot;]/mat-toolbar[@class=&quot;mat-toolbar mat-elevation-z4 mat-primary mat-toolbar-multiple-rows&quot;]/mat-toolbar-row[@class=&quot;mat-toolbar-row justify-content-between&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/button[@class=&quot;mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
-      <webElementGuid>0ad0c0b2-bd69-4ee8-aa96-9cec6bd12aba</webElementGuid>
+      <webElementGuid>ac649986-fefe-48f9-8826-e22842d743cd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,6 +53,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button/span[3]</value>
-      <webElementGuid>57d43acf-ecd4-4818-9587-43acfa8259cc</webElementGuid>
+      <webElementGuid>61aa6bf4-aed4-4b20-a933-07a3e37d8d88</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

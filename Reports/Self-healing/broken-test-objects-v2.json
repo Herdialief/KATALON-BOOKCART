@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Header/span_wishlist",
+      "brokenLocator": "button \u003e\u003e internal:has-text\u003d\"favorite0\"i",
+      "brokenLocatorMethod": "SMART_LOCATOR",
+      "proposedLocator": "//div[3]/button/span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Header/span_wishlist_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Book Details/span_Add to Wishlist",
+      "brokenLocator": "internal:role\u003dbutton[name\u003d\"Add to Wishlist\"i]",
+      "brokenLocatorMethod": "SMART_LOCATOR",
+      "proposedLocator": "//app-addtowishlist/button/span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Book Details/span_Add to Wishlist_XPATH.png"
+    }
+  ]
 }
