@@ -18,7 +18,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\herdi\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Scenario\\06. Cart\\SC06TC003 Clear Cart\\20250211_170212\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\herdi\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Scenario\\06. Cart\\SC06TC003 Clear Cart\\20250211_174817\\execution.properties')
 
 TestCaseMain.beforeStart()
 

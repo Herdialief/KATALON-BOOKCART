@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\herdi\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Scenario\\06. Cart\\SC06TC002 Add Item to Chart\\20250211_161104\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\herdi\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Scenario\\06. Cart\\SC06TC001 Empty Cart\\20250211_174734\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Scenario/06. Cart/SC06TC002 Add Item to Chart', new TestCaseBinding('Test Cases/Scenario/06. Cart/SC06TC002 Add Item to Chart',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Scenario/06. Cart/SC06TC001 Empty Cart', new TestCaseBinding('Test Cases/Scenario/06. Cart/SC06TC001 Empty Cart',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

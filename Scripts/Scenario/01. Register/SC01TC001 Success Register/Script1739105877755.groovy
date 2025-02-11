@@ -35,7 +35,7 @@ WebUI.setText(findTestObject('Register Page/input_First name'), 'ableh', Failure
 
 WebUI.setText(findTestObject('Register Page/input_Last name'), 'helba')
 
-WebUI.setText(findTestObject('Register Page/input_User name'), 'ableh1')
+WebUI.setText(findTestObject('Register Page/input_User name'), 'ableh01')
 
 WebUI.setEncryptedText(findTestObject('Register Page/input_Password'), 'TCdEHGtpZOAOScmyNwFgOw==')
 
