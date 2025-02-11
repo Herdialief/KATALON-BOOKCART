@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SC05TC001 Empty Wishlist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a70485f-05db-4e84-8cfa-688eb19515ce</testCaseGuid>
+</TestCaseEntity>

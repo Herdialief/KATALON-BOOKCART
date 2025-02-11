@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SC05TC002 Add item to wishlist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a4650bc-69a2-434b-aa34-384dfb9d5455</testCaseGuid>
+</TestCaseEntity>

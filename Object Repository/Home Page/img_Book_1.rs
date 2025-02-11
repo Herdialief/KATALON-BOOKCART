@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Book_1</name>
+   <tag></tag>
+   <elementGuidId>93487c1f-f352-48b6-b607-7567858d4659</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.mat-mdc-card-image.mdc-card__media.preview-image</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//img[@alt='Book cover image']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>mat-card >> internal:has-text=&quot;favorite Harry Potter and the Chamber of Secrets₹236.00shopping_cart Add to Cart&quot;i >> internal:label=&quot;Book title&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>05ce3fda-3877-4512-bdb9-d437fefea5b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Book cover image</value>
+      <webElementGuid>a2326a1d-758c-44a2-945a-c8cfeb57a932</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-mdc-card-image mdc-card__media preview-image</value>
+      <webElementGuid>f3d93a37-5881-4436-8b7e-a223726fe165</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/Upload/9d8f4978-0ef8-42d0-873a-4eb583439237HP2.jpg</value>
+      <webElementGuid>25db1b3e-2a0b-4486-9c3c-659c3ee4547a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row no-gutters pt-3 ng-star-inserted&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;d-flex justify-content-start card-deck-container mb-4 ng-star-inserted&quot;]/div[@class=&quot;p-1 ng-star-inserted&quot;]/app-book-card[1]/mat-card[@class=&quot;mat-mdc-card mdc-card book-card mat-elevation-z2 on-book-card-hover&quot;]/a[@class=&quot;mat-mdc-tooltip-trigger&quot;]/img[@class=&quot;mat-mdc-card-image mdc-card__media preview-image&quot;]</value>
+      <webElementGuid>2be2dc03-555c-4578-b990-0ca4aea4a1b5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Book cover image']</value>
+      <webElementGuid>fbb71dfc-b8f6-4a2c-a28e-bbe41c7a2ede</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/img</value>
+      <webElementGuid>26fbe77c-f969-4bcf-a590-96ff7550c374</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'Book cover image' and @src = '/Upload/9d8f4978-0ef8-42d0-873a-4eb583439237HP2.jpg']</value>
+      <webElementGuid>2b335d30-f59f-486b-9b29-5b967b82e1a6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

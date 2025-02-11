@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SC06TC001 Empty Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0eaafd96-7985-49b7-91ac-2bdccd47f2ef</testCaseGuid>
+</TestCaseEntity>

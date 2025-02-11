@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SC06TC002 Add Item to Chart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2cd1faed-5867-437a-a987-c74ec767cf8d</testCaseGuid>
+</TestCaseEntity>

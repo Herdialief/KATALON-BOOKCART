@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SC05TC003 Clear Wishlist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ead2fbc-6c97-4afc-86a3-d440b0bd2ec4</testCaseGuid>
+</TestCaseEntity>
