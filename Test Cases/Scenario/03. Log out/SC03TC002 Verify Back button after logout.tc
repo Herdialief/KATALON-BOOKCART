@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SC03TC002 Verify Back button after logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ae98b81f-3762-4d7b-944e-5b28972a2ec3</testCaseGuid>
+</TestCaseEntity>

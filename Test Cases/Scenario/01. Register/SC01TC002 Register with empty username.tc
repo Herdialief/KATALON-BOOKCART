@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SC01TC002 Register with empty username</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>18c45c66-50b8-4636-88ee-c45df9e8204f</testCaseGuid>
-</TestCaseEntity>

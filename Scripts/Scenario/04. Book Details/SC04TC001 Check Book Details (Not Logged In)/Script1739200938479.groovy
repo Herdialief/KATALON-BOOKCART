@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Blocks/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Browser/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Maximize Window'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Browser/Maximize Window'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Navigate to URL'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Browser/Navigate to URL'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Home Page/img_Book_1'))
 
@@ -37,5 +37,5 @@ WebUI.verifyElementPresent(findTestObject('Book Details/td_Price'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Book Details/span_Add to Cart'), 0)
 
-WebUI.callTestCase(findTestCase('Blocks/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Browser/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

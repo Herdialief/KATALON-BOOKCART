@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Success Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e2a79e23-6edc-4ba4-801d-88b4d58b2c2d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2308fe01-3061-48d1-921a-ce128045cc20</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eb553bea-87ba-48e7-827f-77bb2d50c711</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ableh1'</defaultValue>
+      <description></description>
+      <id>2308fe01-3061-48d1-921a-ce128045cc20</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'TCdEHGtpZOAOScmyNwFgOw=='</defaultValue>
+      <description></description>
+      <id>eb553bea-87ba-48e7-827f-77bb2d50c711</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

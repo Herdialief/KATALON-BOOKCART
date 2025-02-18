@@ -17,23 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Blocks/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Browser/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Maximize Window'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Browser/Maximize Window'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Navigate to URL'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Browser/Navigate to URL'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Header/span_Login'))
+WebUI.callTestCase(findTestCase('Blocks/Account/Success Login'), [('username') : 'ableh1', ('password') : 'TCdEHGtpZOAOScmyNwFgOw=='], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Login Page/mat-card-title_Login'), 0)
-
-WebUI.setText(findTestObject('Login Page/input_Username'), 'ableh1')
-
-WebUI.setEncryptedText(findTestObject('Login Page/input_Password'), 'TCdEHGtpZOAOScmyNwFgOw==')
-
-WebUI.click(findTestObject('Login Page/span_Login'))
-
-WebUI.verifyElementPresent(findTestObject('Header/span_Profile'), 0)
-
-WebUI.callTestCase(findTestCase('Blocks/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Browser/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_711993</name>
+   <tag></tag>
+   <elementGuidId>9b6958b9-2259-494c-976e-cbe9c25a62b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[44]/following::strong[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mat-card.mat-mdc-card.mdc-card.book-card.mat-elevation-z2.on-book-card-hover > mat-card-content.mat-mdc-card-content > div.card-title.my-2 > a > strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;7/1/1993&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>f8f846c2-af10-418a-bd6e-ccb39b75e962</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>7/1/1993</value>
+      <webElementGuid>d9279ee7-192a-4319-82fb-ad753765589a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row no-gutters pt-3 ng-star-inserted&quot;]/div[@class=&quot;col mb-3&quot;]/div[@class=&quot;d-flex justify-content-start card-deck-container mb-4 ng-star-inserted&quot;]/div[@class=&quot;p-1 ng-star-inserted&quot;]/app-book-card[1]/mat-card[@class=&quot;mat-mdc-card mdc-card book-card mat-elevation-z2 on-book-card-hover&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content&quot;]/div[@class=&quot;card-title my-2&quot;]/a[1]/strong[1]</value>
+      <webElementGuid>8cc584e2-022e-4e23-8eec-45cf5bca55cf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[44]/following::strong[1]</value>
+      <webElementGuid>e90f39b8-f495-46a2-bff0-6630daa79c5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Soul of the Sword'])[1]/following::strong[1]</value>
+      <webElementGuid>762c15d4-c6f4-4423-92ba-9e257cdd3a7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[45]/preceding::strong[1]</value>
+      <webElementGuid>8ba20f9a-6f5a-45f1-8f08-1d23518fecd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='API details'])[1]/preceding::strong[1]</value>
+      <webElementGuid>0b61c959-1e74-4954-880f-70de6b578174</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='7/1/1993']/parent::*</value>
+      <webElementGuid>19d2ad60-4f3a-4710-9531-4a37f1c7ea80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[45]/app-book-card/mat-card/mat-card-content/div/a/strong</value>
+      <webElementGuid>7e09e92f-98d7-466c-b5b6-07723a344b0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = '7/1/1993' or . = '7/1/1993')]</value>
+      <webElementGuid>68248d8d-6cc4-434c-8b1d-1c36f3a066b5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

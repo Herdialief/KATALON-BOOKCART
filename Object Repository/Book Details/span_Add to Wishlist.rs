@@ -6,12 +6,12 @@
    <elementGuidId>6d450032-6ab8-44e0-87c2-e703fc90608e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mdc-button.mdc-button--raised.mat-mdc-raised-button.not-wishlisted.mat-unthemed.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//app-addtowishlist/button/span[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mdc-button.mdc-button--raised.mat-mdc-raised-button.not-wishlisted.mat-unthemed.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Add to Wishlist&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>true</smartLocatorEnabled>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

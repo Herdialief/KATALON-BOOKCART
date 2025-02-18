@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Book Details</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>55cd31bc-9e48-4131-a6e4-b050c1ccc403</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8c2aa8de-e9dd-41e2-9fa1-b2c98210ea17</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'A Court of Mist and Furry'</defaultValue>
+      <description></description>
+      <id>8c2aa8de-e9dd-41e2-9fa1-b2c98210ea17</id>
+      <masked>false</masked>
+      <name>buku</name>
+   </variable>
+</TestCaseEntity>
