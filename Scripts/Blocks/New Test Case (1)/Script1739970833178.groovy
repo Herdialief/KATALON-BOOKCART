@@ -17,11 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-// Create the XPath using the variable defined in the Variables tab
-
-
-
-
-
-//a[contains(text(),'Harry Potter and the Chamber of Secrets')]
