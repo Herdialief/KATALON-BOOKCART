@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Verify Book Details</name>
+   <name>New Test Case</name>
    <tag>GenAI</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>55cd31bc-9e48-4131-a6e4-b050c1ccc403</testCaseGuid>
+   <testCaseGuid>614c2df1-fa92-445c-bc50-1e670c50f486</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8c2aa8de-e9dd-41e2-9fa1-b2c98210ea17</variableId>
+      <variableId>11333149-740c-49be-8a52-c01b8813d81c</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'Harry Potter and the Chamber of Secrets'</defaultValue>
       <description></description>
-      <id>8c2aa8de-e9dd-41e2-9fa1-b2c98210ea17</id>
+      <id>11333149-740c-49be-8a52-c01b8813d81c</id>
       <masked>false</masked>
       <name>buku</name>
    </variable>

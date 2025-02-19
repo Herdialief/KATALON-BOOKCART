@@ -16,23 +16,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-// Mapping the book title
-Map<String, String> BookTitleObj = [:]
+WebUI.callTestCase(findTestCase('Blocks/Browser/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-if (buku.size() > 0) {
-    (BookTitleObj[buku]) = ('strong_' + buku)
-}
+WebUI.callTestCase(findTestCase('Blocks/Browser/Maximize Window'), [:], FailureHandling.STOP_ON_FAILURE)
 
-// Print the populated map (for verification)
-println(BookTitleObj)
+WebUI.callTestCase(findTestCase('Blocks/Browser/Navigate to URL'), [:], FailureHandling.STOP_ON_FAILURE)
 
-//Click on the book title
-WebUI.click(findTestObject('Object Repository/Booklist/' + (BookTitleObj[buku])))
+WebUI.callTestCase(findTestCase('Blocks/Account/Success Login'), [('username') : 'ableh1', ('password') : 'TCdEHGtpZOAOScmyNwFgOw=='], 
+    FailureHandling.STOP_ON_FAILURE)
 
-//Verify book details page
-WebUI.verifyElementPresent(findTestObject('Book Details/mat-card-title_Book Details'), 0)
-//Verify book title are equal to the variable value
-WebUI.verifyElementText(findTestObject('Book Details/td_Title'), buku)
+WebUI.callTestCase(findTestCase('Blocks/Verify Book Details'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Blocks/Wishlist/Add to wishlist'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Blocks/Wishlist/Open Wishlist'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Blocks/Wishlist/Verify Wishlishted book'), [('buku') : 'Harry Potter and the Chamber of Secrets'], 
+    FailureHandling.STOP_ON_FAILURE)
 

@@ -6,16 +6,16 @@
    <elementGuidId>4597086a-5c3e-496f-8dd2-be4ff3ab171d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[3]/button/span[3]</value>
+         <key>CSS</key>
+         <value>button.mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-nav-bar[@class=&quot;mat-elevation-z6&quot;]/mat-toolbar[@class=&quot;mat-toolbar mat-elevation-z4 mat-primary mat-toolbar-multiple-rows&quot;]/mat-toolbar-row[@class=&quot;mat-toolbar-row justify-content-between&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/button[@class=&quot;mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>button.mdc-icon-button.mat-mdc-icon-button.mat-unthemed.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target</value>
+         <key>XPATH</key>
+         <value>//div[3]/button/span[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -25,7 +25,7 @@
          <value>button >> internal:has-text=&quot;favorite0&quot;i</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,7 +33,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>5858277f-6756-4ba0-b435-de803084b8a4</webElementGuid>
+      <webElementGuid>21b7105e-febb-4603-862f-b58c16b3c29d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +41,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-mdc-button-touch-target</value>
-      <webElementGuid>f7ede8d6-c376-4a8d-985d-d9ff1caa83bd</webElementGuid>
+      <webElementGuid>a588148f-b3da-44a2-8851-10992a5737a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/app-nav-bar[@class=&quot;mat-elevation-z6&quot;]/mat-toolbar[@class=&quot;mat-toolbar mat-elevation-z4 mat-primary mat-toolbar-multiple-rows&quot;]/mat-toolbar-row[@class=&quot;mat-toolbar-row justify-content-between&quot;]/div[@class=&quot;d-flex align-items-center&quot;]/button[@class=&quot;mdc-icon-button mat-mdc-icon-button mat-unthemed mat-mdc-button-base ng-star-inserted&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
-      <webElementGuid>390e15e1-bfa4-4033-a90f-0b771270049b</webElementGuid>
+      <webElementGuid>44e43f87-1479-4131-874c-bf5efc5746a0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,6 +57,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/button/span[3]</value>
-      <webElementGuid>5fbb538e-5920-4b20-9cf3-012bea6f25d9</webElementGuid>
+      <webElementGuid>90d9a922-3726-498c-b42f-4d8d629a6f99</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

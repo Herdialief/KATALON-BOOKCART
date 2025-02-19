@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>SC04TC002 Check Book Details (Logged In)</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>8498189a-67d9-4ce9-ace4-013533638ca7</testCaseGuid>
-</TestCaseEntity>

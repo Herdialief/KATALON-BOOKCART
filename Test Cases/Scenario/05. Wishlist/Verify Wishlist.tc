@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SC04TC001 Check Book Details (Not Logged In)</name>
+   <name>Verify Wishlist</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>742a7eb3-c2e3-4301-a29a-c2ef754d5ea4</testCaseGuid>
+   <testCaseGuid>7679da94-d3c4-407f-b08f-05e81fed43ae</testCaseGuid>
 </TestCaseEntity>

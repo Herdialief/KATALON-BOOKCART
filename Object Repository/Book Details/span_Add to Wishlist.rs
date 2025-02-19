@@ -6,12 +6,12 @@
    <elementGuidId>6d450032-6ab8-44e0-87c2-e703fc90608e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//app-addtowishlist/button/span[4]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.mdc-button.mdc-button--raised.mat-mdc-raised-button.not-wishlisted.mat-unthemed.mat-mdc-button-base.ng-star-inserted > span.mat-mdc-button-touch-target</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//app-addtowishlist/button/span[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
          <value>internal:role=button[name=&quot;Add to Wishlist&quot;i]</value>
       </entry>
    </smartLocatorCollection>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <smartLocatorEnabled>true</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>db7d1cf1-a52c-455f-a8b6-45f6a9f48f34</webElementGuid>
+      <webElementGuid>1be8daf9-97b6-46c1-b6f1-9e9a8a9a4eb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-mdc-button-touch-target</value>
-      <webElementGuid>bcb2642d-d6a6-44ad-891b-163fccfe8a47</webElementGuid>
+      <webElementGuid>9709ab76-d82b-444e-a51a-f2812f2e5911</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-book-details[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card mt-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content row g-0 d-flex p-3&quot;]/div[@class=&quot;col-md-5 col-sm-12 d-flex flex-column justify-content-between&quot;]/div[1]/app-addtowishlist[@class=&quot;ms-2 ng-star-inserted&quot;]/button[@class=&quot;mdc-button mdc-button--raised mat-mdc-raised-button not-wishlisted mat-unthemed mat-mdc-button-base ng-star-inserted&quot;]/span[@class=&quot;mat-mdc-button-touch-target&quot;]</value>
-      <webElementGuid>ff831d58-8ad0-4bad-8f75-201f67df7089</webElementGuid>
+      <webElementGuid>af583e0a-32d3-41ee-b884-9c7f5dccdfd7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,6 +53,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-addtowishlist/button/span[4]</value>
-      <webElementGuid>d4609b72-6771-4345-8e0a-a864d22ab1d4</webElementGuid>
+      <webElementGuid>224446c6-d69b-49a9-ba16-425990fbf368</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

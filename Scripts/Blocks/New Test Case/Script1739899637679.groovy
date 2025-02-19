@@ -16,12 +16,25 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.click(findTestObject('Home Page/img_Book_1'))
+// Step 2: Get Total Number of Books
+WebUI.callTestCase(findTestCase('Blocks/Browser/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementPresent(findTestObject('Book Details/mat-card-title_Book Details'), 0)
+WebUI.callTestCase(findTestCase('Blocks/Browser/Navigate to URL'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Book Details/span_Add to Wishlist'))
+//create a map for all the herf book from the https://bookcart.azurewebsites.net/ using looping Map<String, String> booklist = [:]
+// Initialize an empty map to store book titles and their corresponding href links
 
-WebUI.verifyElementPresent(findTestObject('Book Details/span_Remove from Wishlist'), 0)
 
+// Step 1: Define the variable in the Variables tab
+// Step 2: Initialize the map
+Map<String, String> BookTitleObj = [:]
+
+// Step 3: Populate the map from the buku variable with prefix strong_
+if (buku.size() > 0) {
+    BookTitleObj[buku] = 'strong_' + buku  // Use the first element directly
+}
+
+// Step 4: Print the populated map (for verification)
+println BookTitleObj

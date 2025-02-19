@@ -17,25 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Blocks/Browser/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Browser/Maximize Window'), [:], FailureHandling.STOP_ON_FAILURE)
+// Create the XPath using the variable defined in the Variables tab
+String xpath = "//a[contains(text(), '${buku}')]
 
-WebUI.callTestCase(findTestCase('Blocks/Browser/Navigate to URL'), [:], FailureHandling.STOP_ON_FAILURE)
+def textFromElement = WebUI.getText(findTestObject('xpath=/html[1]/body[1]/app-root[1]/div[1]/app-wishlist[1]/mat-card[1]/mat-card-content[1]/table[1]/tbody[1]/tr[1]/td[2]/a[1]'))
+println(textFromElement)
 
-WebUI.click(findTestObject('Home Page/img_Book_1'))
 
-WebUI.verifyElementPresent(findTestObject('Book Details/mat-card-title_Book Details'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Book Details/td_Title'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Book Details/td_author'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Book Details/td_Category'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Book Details/td_Price'), 0)
-
-WebUI.verifyElementPresent(findTestObject('Book Details/span_Add to Cart'), 0)
-
-WebUI.callTestCase(findTestCase('Blocks/Browser/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
+//a[contains(text(),'Harry Potter and the Chamber of Secrets')]
