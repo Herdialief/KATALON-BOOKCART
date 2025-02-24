@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[1]/following::strong[1]</value>
+         <value>//*/text()[normalize-space(.)='Harry Potter and the Prisoner of Azkaban']/parent::*</value>
       </entry>
       <entry>
          <key>CSS</key>

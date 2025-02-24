@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Wishlishted book - Judul Harga</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc2c2a03-0fad-47be-afa0-0f3628326478</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eaf7995c-9c0d-4ee7-9528-83fa5ca8acf0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Harry Potter and the Half-Blood Prince'</defaultValue>
+      <description></description>
+      <id>eaf7995c-9c0d-4ee7-9528-83fa5ca8acf0</id>
+      <masked>false</masked>
+      <name>buku</name>
+   </variable>
+</TestCaseEntity>

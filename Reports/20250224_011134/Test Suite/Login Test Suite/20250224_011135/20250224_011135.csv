@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Chrome 133.0.6943.127,,,24-02-2025 01:11:48,24-02-2025 01:12:05,17.585s,PASSED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Chrome 133.0.6943.127,,,24-02-2025 01:11:48,24-02-2025 01:11:55,6.914s,PASSED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""ableh1""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:11:48,24-02-2025 01:11:49,1.483s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:11:49,24-02-2025 01:11:50,0.136s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:11:50,24-02-2025 01:11:51,1.528s,PASSED
+"click(findTestObject(""Header/span_Login""))",Chrome 133.0.6943.127,,,24-02-2025 01:11:51,24-02-2025 01:11:51,0.348s,PASSED
+"waitForElementPresent(findTestObject(""Login Page/mat-card-title_Login""), 0)",Chrome 133.0.6943.127,,,24-02-2025 01:11:51,24-02-2025 01:11:52,0.679s,PASSED
+"setText(findTestObject(""Login Page/input_Username""), username)",Chrome 133.0.6943.127,,,24-02-2025 01:11:52,24-02-2025 01:11:53,0.572s,PASSED
+"setEncryptedText(findTestObject(""Login Page/input_Password""), password)",Chrome 133.0.6943.127,,,24-02-2025 01:11:53,24-02-2025 01:11:53,0.349s,PASSED
+"waitForElementClickable(findTestObject(""Header/span_Login""), 10, STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:11:53,24-02-2025 01:11:53,0.297s,PASSED
+"click(findTestObject(""Login Page/span_Login""))",Chrome 133.0.6943.127,,,24-02-2025 01:11:53,24-02-2025 01:11:54,0.296s,PASSED
+"verifyElementPresent(findTestObject(""Header/span_Profile""), 5)",Chrome 133.0.6943.127,,,24-02-2025 01:11:54,24-02-2025 01:11:55,0.885s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:11:55,24-02-2025 01:11:55,0.225s,PASSED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Chrome 133.0.6943.127,,,24-02-2025 01:11:55,24-02-2025 01:12:00,5.305s,PASSED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""ucrit1""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:11:55,24-02-2025 01:11:56,0.874s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:11:56,24-02-2025 01:11:56,0.108s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:11:56,24-02-2025 01:11:57,0.847s,PASSED
+"click(findTestObject(""Header/span_Login""))",Chrome 133.0.6943.127,,,24-02-2025 01:11:57,24-02-2025 01:11:57,0.582s,PASSED
+"waitForElementPresent(findTestObject(""Login Page/mat-card-title_Login""), 0)",Chrome 133.0.6943.127,,,24-02-2025 01:11:57,24-02-2025 01:11:58,0.661s,PASSED
+"setText(findTestObject(""Login Page/input_Username""), username)",Chrome 133.0.6943.127,,,24-02-2025 01:11:58,24-02-2025 01:11:58,0.514s,PASSED
+"setEncryptedText(findTestObject(""Login Page/input_Password""), password)",Chrome 133.0.6943.127,,,24-02-2025 01:11:58,24-02-2025 01:11:59,0.270s,PASSED
+"waitForElementClickable(findTestObject(""Header/span_Login""), 10, STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:11:59,24-02-2025 01:11:59,0.237s,PASSED
+"click(findTestObject(""Login Page/span_Login""))",Chrome 133.0.6943.127,,,24-02-2025 01:11:59,24-02-2025 01:11:59,0.276s,PASSED
+"verifyElementPresent(findTestObject(""Header/span_Profile""), 5)",Chrome 133.0.6943.127,,,24-02-2025 01:11:59,24-02-2025 01:12:00,0.754s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:12:00,24-02-2025 01:12:00,0.174s,PASSED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Chrome 133.0.6943.127,,,24-02-2025 01:12:00,24-02-2025 01:12:05,5.247s,PASSED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""hanabi""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:12:00,24-02-2025 01:12:01,0.767s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:12:01,24-02-2025 01:12:01,0.113s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:12:01,24-02-2025 01:12:02,0.844s,PASSED
+"click(findTestObject(""Header/span_Login""))",Chrome 133.0.6943.127,,,24-02-2025 01:12:02,24-02-2025 01:12:02,0.662s,PASSED
+"waitForElementPresent(findTestObject(""Login Page/mat-card-title_Login""), 0)",Chrome 133.0.6943.127,,,24-02-2025 01:12:02,24-02-2025 01:12:03,0.665s,PASSED
+"setText(findTestObject(""Login Page/input_Username""), username)",Chrome 133.0.6943.127,,,24-02-2025 01:12:03,24-02-2025 01:12:04,0.532s,PASSED
+"setEncryptedText(findTestObject(""Login Page/input_Password""), password)",Chrome 133.0.6943.127,,,24-02-2025 01:12:04,24-02-2025 01:12:04,0.274s,PASSED
+"waitForElementClickable(findTestObject(""Header/span_Login""), 10, STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:12:04,24-02-2025 01:12:04,0.237s,PASSED
+"click(findTestObject(""Login Page/span_Login""))",Chrome 133.0.6943.127,,,24-02-2025 01:12:04,24-02-2025 01:12:04,0.275s,PASSED
+"verifyElementPresent(findTestObject(""Header/span_Profile""), 5)",Chrome 133.0.6943.127,,,24-02-2025 01:12:04,24-02-2025 01:12:05,0.701s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 01:12:05,24-02-2025 01:12:05,0.169s,PASSED

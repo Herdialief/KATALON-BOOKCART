@@ -33,6 +33,10 @@ WebUI.click(findTestObject('Object Repository/Booklist/' + (BookTitleObj[buku]))
 
 //Verify book details page
 WebUI.verifyElementPresent(findTestObject('Book Details/mat-card-title_Book Details'), 0)
+
 //Verify book title are equal to the variable value
 WebUI.verifyElementText(findTestObject('Book Details/td_Title'), buku)
 
+// Set variable to be called in another TC
+def hargaDetails = WebUI.getText(findTestObject('Book Details/td_Price'))
+return hargaDetails

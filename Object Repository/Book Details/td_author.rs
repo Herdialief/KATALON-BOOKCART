@@ -4,22 +4,24 @@
    <name>td_author</name>
    <tag></tag>
    <elementGuidId>ca916267-f299-4015-b6b1-70c8d358b8b5</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
+      <entry>
+         <key>IMAGE</key>
+      </entry>
       <entry>
          <key>CSS</key>
          <value>tr:nth-of-type(2) > td:nth-of-type(2)</value>
       </entry>
       <entry>
-         <key>IMAGE</key>
-         <value></value>
+         <key>BASIC</key>
+         <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-book-details[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card mt-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content row g-0 d-flex p-3&quot;]/div[@class=&quot;col-md-5 col-sm-12 d-flex flex-column justify-content-between&quot;]/table[@class=&quot;table table-lg&quot;]/tbody[1]/tr[2]/td[2]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Author'])[1]/following::td[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
@@ -34,7 +36,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>d95ea12b-ad3a-414d-bbd4-82b6f6cdd193</webElementGuid>
+      <webElementGuid>bd7d8c63-6772-4634-b76e-4325b8a989f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>JKR</value>
-      <webElementGuid>08ee17c7-69af-4a63-abba-68e9cff35252</webElementGuid>
+      <webElementGuid>a27f093f-d052-4913-ab8c-2e6bab156439</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;mat-typography&quot;]/app-root[1]/div[@class=&quot;container&quot;]/app-book-details[@class=&quot;ng-star-inserted&quot;]/mat-card[@class=&quot;mat-mdc-card mdc-card mt-4 ng-star-inserted&quot;]/mat-card-content[@class=&quot;mat-mdc-card-content row g-0 d-flex p-3&quot;]/div[@class=&quot;col-md-5 col-sm-12 d-flex flex-column justify-content-between&quot;]/table[@class=&quot;table table-lg&quot;]/tbody[1]/tr[2]/td[2]</value>
-      <webElementGuid>1dd43f4f-3b33-4004-8618-74253480831c</webElementGuid>
+      <webElementGuid>2cbb271a-6bf2-4323-bf51-d252acb1a399</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -58,7 +60,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Author'])[1]/following::td[1]</value>
-      <webElementGuid>688f35ab-28a6-43e4-8f41-b35906efab8d</webElementGuid>
+      <webElementGuid>961d2f73-f5a5-43d8-a4fa-7b4ef70cc39e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -66,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Harry Potter and the Chamber of Secrets'])[1]/following::td[2]</value>
-      <webElementGuid>243b0e62-9f54-4d99-a7a9-aabf81b24561</webElementGuid>
+      <webElementGuid>16bd9737-cfcc-408c-aec9-7fe5b28b246f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -74,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Category'])[1]/preceding::td[1]</value>
-      <webElementGuid>e09ab38c-a7cb-4590-96f6-d7e39334ec28</webElementGuid>
+      <webElementGuid>42efa6da-b252-474d-8d68-c01f1c6d276d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mystery'])[1]/preceding::td[2]</value>
-      <webElementGuid>186805e1-4d9c-4aea-8dce-dbed50dd0045</webElementGuid>
+      <webElementGuid>e6881085-eba9-4852-a612-30b3b9f315f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='JKR']/parent::*</value>
-      <webElementGuid>0aa3423c-b3d2-4e7f-8503-94291a167f18</webElementGuid>
+      <webElementGuid>4d6669b7-3fa8-4245-87ac-a17dc07e1afe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +100,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]</value>
-      <webElementGuid>5393a944-3027-4c9c-a40f-22adf6eb4841</webElementGuid>
+      <webElementGuid>69f90cf0-ec36-497c-8631-aaca9225ffd0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,6 +108,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'JKR' or . = 'JKR')]</value>
-      <webElementGuid>89726b90-634e-4166-b4a9-50558802d433</webElementGuid>
+      <webElementGuid>9f1b5c8f-dc55-417b-8315-32eb99d812b1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

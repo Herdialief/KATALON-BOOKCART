@@ -17,11 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+//verify if already in Book details page
 WebUI.verifyElementPresent(findTestObject('Book Details/mat-card-title_Book Details'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Book Details/span_Add to Wishlist'), FailureHandling.OPTIONAL)
+// Check Add to wishlist present
+if (WebUI.verifyElementPresent(findTestObject('Book Details/span_Add to Wishlist'), 5, FailureHandling.OPTIONAL)) {
+	// If present, click on 'Book Details/span_Add to Wishlist'
+	WebUI.click(findTestObject('Book Details/span_Add to Wishlist'))
+}// If not, verify button Remove from Wishlist visible
+else {
+	WebUI.verifyElementPresent(findTestObject('Book Details/span_Remove from Wishlist'), 0)
+}
 
-WebUI.click(findTestObject('Book Details/span_Add to Wishlist'), FailureHandling.OPTIONAL)
 
-WebUI.verifyElementPresent(findTestObject('Book Details/span_Remove from Wishlist'), 0)
 

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Test Suite" time="5.341" tests="1" failures="0" errors="0">
+   <testsuite name="Login Test Suite" tests="1" failures="0" errors="0" time="5.341" skipped="0" timestamp="23-02-2025T23:43:10" hostname="herdi - Alief" id="Test Suites/Login Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Katalon Project\\Git\\KATALON-BOOKCART\\Reports\\20250223_234304\\Login Test Suite\\20250223_234305"/>
+         <property name="logFiles" value="D:\\Katalon Project\\Git\\KATALON-BOOKCART\\Reports\\20250223_234304\\Login Test Suite\\20250223_234305\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="herdi - Alief"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 133.0.6943.127"/>
+         <property name="hostAddress" value="192.168.18.82"/>
+         <property name="sessionId" value="a2357c953e814a9e6647d431257a3ed2"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Scenario/02. Login/SC02TC001 Succces Login" time="5.243" classname="Test Cases/Scenario/02. Login/SC02TC001 Succces Login" status="PASSED">
+         <system-out><![CDATA[23-02-2025T23:43:10 - [TEST_CASE][PASSED] - Test Cases/Scenario/02. Login/SC02TC001 Succces Login: Test Cases/Scenario/02. Login/SC02TC001 Succces Login
+
+23-02-2025T23:43:10 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Browser/Open Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Browser/Open Browser' successfully
+
+23-02-2025T23:43:11 - [TEST_CASE][PASSED] - Test Cases/Blocks/Browser/Open Browser: Test Cases/Blocks/Browser/Open Browser
+
+23-02-2025T23:43:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+23-02-2025T23:43:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+23-02-2025T23:43:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+23-02-2025T23:43:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+23-02-2025T23:43:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Browser/Open Browser' successfully
+
+23-02-2025T23:43:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Browser/Maximize Window"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Browser/Maximize Window' successfully
+
+23-02-2025T23:43:12 - [TEST_CASE][PASSED] - Test Cases/Blocks/Browser/Maximize Window: Test Cases/Blocks/Browser/Maximize Window
+
+23-02-2025T23:43:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+23-02-2025T23:43:12 - [MESSAGE][PASSED] - Current window maximized
+
+23-02-2025T23:43:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Browser/Maximize Window' successfully
+
+23-02-2025T23:43:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Browser/Navigate to URL"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Browser/Navigate to URL' successfully
+
+23-02-2025T23:43:12 - [TEST_CASE][PASSED] - Test Cases/Blocks/Browser/Navigate to URL: Test Cases/Blocks/Browser/Navigate to URL
+
+23-02-2025T23:43:12 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+23-02-2025T23:43:13 - [MESSAGE][PASSED] - Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+23-02-2025T23:43:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Browser/Navigate to URL' successfully
+
+23-02-2025T23:43:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Account/Success Login"), ["username":"ableh1", "password":"TCdEHGtpZOAOScmyNwFgOw=="], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Account/Success Login' successfully
+
+23-02-2025T23:43:13 - [TEST_CASE][PASSED] - Test Cases/Blocks/Account/Success Login: Test Cases/Blocks/Account/Success Login
+
+23-02-2025T23:43:13 - [TEST_STEP][PASSED] - click(findTestObject("Header/span_Login")): Object: 'Object Repository/Header/span_Login' is clicked on
+
+23-02-2025T23:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/span_Login' is clicked on
+
+23-02-2025T23:43:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login Page/mat-card-title_Login"), 0): Object 'Object Repository/Login Page/mat-card-title_Login' is present
+
+23-02-2025T23:43:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-02-2025T23:43:14 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/mat-card-title_Login' is present
+
+23-02-2025T23:43:14 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input_Username"), username): Text 'ableh1' is set on object 'Object Repository/Login Page/input_Username'
+
+23-02-2025T23:43:15 - [MESSAGE][PASSED] - Text 'ableh1' is set on object 'Object Repository/Login Page/input_Username'
+
+23-02-2025T23:43:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page/input_Password"), password): Text ****** has been set on object 'Object Repository/Login Page/input_Password'
+
+23-02-2025T23:43:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/input_Password'
+
+23-02-2025T23:43:15 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/span_Login")): Object: 'Object Repository/Login Page/span_Login' is clicked on
+
+23-02-2025T23:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/span_Login' is clicked on
+
+23-02-2025T23:43:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Header/span_Profile"), 0): Object 'Object Repository/Header/span_Profile' is present
+
+23-02-2025T23:43:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+23-02-2025T23:43:15 - [MESSAGE][PASSED] - Object 'Object Repository/Header/span_Profile' is present
+
+23-02-2025T23:43:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Account/Success Login' successfully
+
+23-02-2025T23:43:15 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Blocks/Browser/Close Browser"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Blocks/Browser/Close Browser' successfully
+
+23-02-2025T23:43:15 - [TEST_CASE][PASSED] - Test Cases/Blocks/Browser/Close Browser: Test Cases/Blocks/Browser/Close Browser
+
+23-02-2025T23:43:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+23-02-2025T23:43:16 - [MESSAGE][PASSED] - Browser is closed
+
+23-02-2025T23:43:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Browser/Close Browser' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[23-02-2025T23:43:10 - [TEST_SUITE][PASSED] - Login Test Suite: Test Cases/Scenario/02. Login/SC02TC001 Succces Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

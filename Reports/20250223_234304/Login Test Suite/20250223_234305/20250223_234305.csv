@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Chrome 133.0.6943.127,,,23-02-2025 23:43:10,23-02-2025 23:43:16,5.341s,PASSED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Chrome 133.0.6943.127,,,23-02-2025 23:43:10,23-02-2025 23:43:16,5.243s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,23-02-2025 23:43:10,23-02-2025 23:43:12,1.538s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,23-02-2025 23:43:12,23-02-2025 23:43:12,0.126s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,23-02-2025 23:43:12,23-02-2025 23:43:13,0.912s,PASSED
+"callTestCase(findTestCase(""Blocks/Account/Success Login""), [""username"":""ableh1"", ""password"":""TCdEHGtpZOAOScmyNwFgOw==""], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,23-02-2025 23:43:13,23-02-2025 23:43:15,2.360s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,23-02-2025 23:43:15,23-02-2025 23:43:16,0.191s,PASSED

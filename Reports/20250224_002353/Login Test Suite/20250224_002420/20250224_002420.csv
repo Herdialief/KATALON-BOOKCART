@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Chrome 133.0.6943.127,,,24-02-2025 00:24:25,24-02-2025 00:24:35,9.877s,ERROR
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Chrome 133.0.6943.127,,,24-02-2025 00:24:26,24-02-2025 00:24:29,3.778s,ERROR
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""ableh1""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:24:26,24-02-2025 00:24:27,1.437s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:24:27,24-02-2025 00:24:27,0.127s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:24:27,24-02-2025 00:24:28,0.911s,PASSED
+"callTestCase(findTestCase(""Blocks/Account/Success Login""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:24:28,24-02-2025 00:24:29,1.196s,ERROR
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Chrome 133.0.6943.127,,,24-02-2025 00:24:29,24-02-2025 00:24:32,2.998s,ERROR
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""ucrit1""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:24:29,24-02-2025 00:24:30,0.806s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:24:30,24-02-2025 00:24:30,0.114s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:24:30,24-02-2025 00:24:31,0.827s,PASSED
+"callTestCase(findTestCase(""Blocks/Account/Success Login""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:24:31,24-02-2025 00:24:32,1.243s,ERROR
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Chrome 133.0.6943.127,,,24-02-2025 00:24:32,24-02-2025 00:24:35,2.974s,ERROR
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""hanabi""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:24:32,24-02-2025 00:24:33,0.838s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:24:33,24-02-2025 00:24:33,0.092s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:24:33,24-02-2025 00:24:34,0.828s,PASSED
+"callTestCase(findTestCase(""Blocks/Account/Success Login""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:24:34,24-02-2025 00:24:35,1.210s,ERROR

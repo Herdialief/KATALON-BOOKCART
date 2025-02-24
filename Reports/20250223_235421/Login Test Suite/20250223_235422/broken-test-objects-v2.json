@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login Page/input_Username",
+      "brokenLocator": "//input[@id\u003d\u0027mat-input-0\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250223_235421/Login Test Suite/20250223_235422/Object Repository/Login Page/input_Username_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login Page/input_Password",
+      "brokenLocator": "//input[@id\u003d\u0027mat-input-1\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-form-field[2]/div/div/div[2]/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250223_235421/Login Test Suite/20250223_235422/Object Repository/Login Page/input_Password_position.png"
+    }
+  ]
+}

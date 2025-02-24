@@ -32,6 +32,5 @@ WebUI.callTestCase(findTestCase('Blocks/Wishlist/Add to wishlist'), [:], Failure
 
 WebUI.callTestCase(findTestCase('Blocks/Wishlist/Open Wishlist'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Wishlist/Verify Wishlishted book'), [('buku') : 'Harry Potter and the Chamber of Secrets'], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Blocks/Wishlist/Verify Wishlishted book - Judul Harga'), [:], FailureHandling.STOP_ON_FAILURE)
 

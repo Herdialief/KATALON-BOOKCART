@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Book Details bck</name>
+   <tag>GenAI</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4cdc6516-8f65-4cdf-a825-b3d2b8c3f42e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2305f4a8-6e51-49d6-af03-8122295cded7</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2305f4a8-6e51-49d6-af03-8122295cded7</id>
+      <masked>false</masked>
+      <name>buku</name>
+   </variable>
+</TestCaseEntity>

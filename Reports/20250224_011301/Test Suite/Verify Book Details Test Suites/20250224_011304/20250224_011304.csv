@@ -1,0 +1,49 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify Book Details Test Suites,Chrome 133.0.6943.127,,,24-02-2025 01:13:18,24-02-2025 01:16:54,3m - 35.458s,FAILED
+,,,,,,,
+Test Cases/Blocks/Browser/Open Browser,Chrome 133.0.6943.127,,,24-02-2025 01:13:19,24-02-2025 01:13:20,1.593s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.127,,,24-02-2025 01:13:19,24-02-2025 01:13:20,1.497s,PASSED
+,,,,,,,
+Test Cases/Blocks/Browser/Maximize Window,Chrome 133.0.6943.127,,,24-02-2025 01:13:20,24-02-2025 01:13:20,0.065s,PASSED
+maximizeWindow(),Chrome 133.0.6943.127,,,24-02-2025 01:13:20,24-02-2025 01:13:20,0.041s,PASSED
+,,,,,,,
+Test Cases/Blocks/Browser/Navigate to URL,Chrome 133.0.6943.127,,,24-02-2025 01:13:20,24-02-2025 01:13:21,0.857s,PASSED
+navigateToUrl(URL),Chrome 133.0.6943.127,,,24-02-2025 01:13:20,24-02-2025 01:13:21,0.824s,PASSED
+,,,,,,,
+Test Cases/Blocks/Account/Success Login,Chrome 133.0.6943.127,,,24-02-2025 01:13:21,24-02-2025 01:13:24,3.234s,PASSED
+"DATA BINDING - {""(Default) usern..."":""ableh1"",""(Default) passw..."":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d""}",,,,,,,
+"click(findTestObject(""Header/span_Login""))",Chrome 133.0.6943.127,,,24-02-2025 01:13:21,24-02-2025 01:13:22,0.525s,PASSED
+"waitForElementPresent(findTestObject(""Login Page/mat-card-title_Login""), 0)",Chrome 133.0.6943.127,,,24-02-2025 01:13:22,24-02-2025 01:13:22,0.567s,PASSED
+"setText(findTestObject(""Login Page/input_Username""), username)",Chrome 133.0.6943.127,,,24-02-2025 01:13:22,24-02-2025 01:13:23,0.531s,PASSED
+"setEncryptedText(findTestObject(""Login Page/input_Password""), password)",Chrome 133.0.6943.127,,,24-02-2025 01:13:23,24-02-2025 01:13:23,0.290s,PASSED
+"click(findTestObject(""Login Page/span_Login""))",Chrome 133.0.6943.127,,,24-02-2025 01:13:23,24-02-2025 01:13:23,0.294s,PASSED
+"verifyElementPresent(findTestObject(""Header/span_Profile""), 0)",Chrome 133.0.6943.127,,,24-02-2025 01:13:23,24-02-2025 01:13:24,0.972s,PASSED
+,,,,,,,
+Test Cases/Blocks/Verify Book Details,Chrome 133.0.6943.127,,GenAI,24-02-2025 01:13:24,24-02-2025 01:13:26,1.560s,PASSED
+"DATA BINDING - {""(Default) buku"":""Harry Potter and the Half-Blood Prince""}",,,,,,,
+BookTitleObj = [:],Chrome 133.0.6943.127,,,24-02-2025 01:13:24,24-02-2025 01:13:24,0.001s,PASSED
+if (buku.size() > 0),Chrome 133.0.6943.127,,,24-02-2025 01:13:24,24-02-2025 01:13:24,0.006s,PASSED
+println(BookTitleObj),Chrome 133.0.6943.127,,,24-02-2025 01:13:24,24-02-2025 01:13:24,0.002s,PASSED
+"click(findTestObject(""Object Repository/Booklist/"" + BookTitleObj[buku]))",Chrome 133.0.6943.127,,,24-02-2025 01:13:24,24-02-2025 01:13:25,0.270s,PASSED
+"verifyElementPresent(findTestObject(""Book Details/mat-card-title_Book Details""), 0)",Chrome 133.0.6943.127,,,24-02-2025 01:13:25,24-02-2025 01:13:25,0.750s,PASSED
+"verifyElementText(findTestObject(""Book Details/td_Title""), buku)",Chrome 133.0.6943.127,,,24-02-2025 01:13:25,24-02-2025 01:13:26,0.240s,PASSED
+"hargaDetails = getText(findTestObject(""Book Details/td_Price""))",Chrome 133.0.6943.127,,,24-02-2025 01:13:26,24-02-2025 01:13:26,0.235s,PASSED
+return hargaDetails,Chrome 133.0.6943.127,,,24-02-2025 01:13:26,24-02-2025 01:13:26,0.000s,PASSED
+,,,,,,,
+Test Cases/Blocks/Wishlist/Add to wishlist,Chrome 133.0.6943.127,,,24-02-2025 01:13:26,24-02-2025 01:13:32,6.429s,PASSED
+"verifyElementPresent(findTestObject(""Book Details/mat-card-title_Book Details""), 0)",Chrome 133.0.6943.127,,,24-02-2025 01:13:26,24-02-2025 01:13:26,0.233s,PASSED
+"if (verifyElementPresent(findTestObject(""Book Details/span_Add to Wishlist""), 5, OPTIONAL))",Chrome 133.0.6943.127,,,24-02-2025 01:13:26,24-02-2025 01:13:32,6.144s,PASSED
+else,Chrome 133.0.6943.127,,,24-02-2025 01:13:32,24-02-2025 01:13:32,0.018s,PASSED
+,,,,,,,
+Test Cases/Blocks/Wishlist/Open Wishlist,Chrome 133.0.6943.127,,,24-02-2025 01:14:48,24-02-2025 01:14:49,1.020s,FAILED
+"click(findTestObject(""Header/span_wishlist""))",Chrome 133.0.6943.127,,,24-02-2025 01:14:48,24-02-2025 01:14:49,1.015s,FAILED
+,,,,,,,
+Test Cases/Blocks/Wishlist/Verify Wishlishted book - Judul Harga,Chrome 133.0.6943.127,,GenAI,24-02-2025 01:14:49,24-02-2025 01:14:50,0.619s,FAILED
+"DATA BINDING - {""(Default) buku"":""Harry Potter and the Half-Blood Prince""}",,,,,,,
+"verifyElementPresent(findTestObject(""Wishlist/a_bookDetailLink""), 0)",Chrome 133.0.6943.127,,,24-02-2025 01:14:49,24-02-2025 01:14:50,0.613s,FAILED
+,,,,,,,
+Test Cases/Blocks/Wishlist/Clear wishlist,Chrome 133.0.6943.127,,,24-02-2025 01:16:23,24-02-2025 01:16:54,31.018s,FAILED
+"click(findTestObject(""Wishlist/span_Clear Wishlist""))",Chrome 133.0.6943.127,,,24-02-2025 01:16:23,24-02-2025 01:16:54,31.011s,FAILED
+,,,,,,,
+Test Cases/Blocks/Browser/Close Browser,Chrome 133.0.6943.127,,,24-02-2025 01:16:54,24-02-2025 01:16:54,0.006s,PASSED
+closeBrowser(),Chrome 133.0.6943.127,,,24-02-2025 01:16:54,24-02-2025 01:16:54,0.002s,PASSED

@@ -1,0 +1,11 @@
+{"testCaseName":"Test Cases/Blocks/Browser/Open Browser","testCaseId":"Test Cases/Blocks/Browser/Open Browser","iterationVariableName":""}
+{"testCaseName":"Test Cases/Blocks/Browser/Navigate to URL","testCaseId":"Test Cases/Blocks/Browser/Navigate to URL","iterationVariableName":""}
+{"testCaseName":"Test Cases/Blocks/Verify Book Details bck","testCaseId":"Test Cases/Blocks/Verify Book Details bck","iterationVariableName":"","bindedValues":{"buku":"\u0027Harry Potter and the Chamber of Secrets\u0027"}}
+{"testCaseName":"Test Cases/Blocks/Verify Book Details bck","testCaseId":"Test Cases/Blocks/Verify Book Details bck","iterationVariableName":"","bindedValues":{"buku":"\u0027Harry Potter and the Deathly Hallows\u0027"}}
+{"testCaseName":"Test Cases/Blocks/Verify Book Details bck","testCaseId":"Test Cases/Blocks/Verify Book Details bck","iterationVariableName":"","bindedValues":{"buku":"\u0027Dr. Strange Beard\u0027"}}
+{"testCaseName":"Test Cases/Blocks/Verify Book Details bck","testCaseId":"Test Cases/Blocks/Verify Book Details bck","iterationVariableName":"","bindedValues":{"buku":"\u0027Slayer\u0027"}}
+{"testCaseName":"Test Cases/Blocks/Verify Book Details bck","testCaseId":"Test Cases/Blocks/Verify Book Details bck","iterationVariableName":"","bindedValues":{"buku":"\u0027Birthday Girl\u0027"}}
+{"testCaseName":"Test Cases/Blocks/Verify Book Details bck","testCaseId":"Test Cases/Blocks/Verify Book Details bck","iterationVariableName":""}
+{"testCaseName":"Test Cases/Blocks/Verify Book Details bck","testCaseId":"Test Cases/Blocks/Verify Book Details bck","iterationVariableName":""}
+{"testCaseName":"Test Cases/Blocks/Verify Book Details bck","testCaseId":"Test Cases/Blocks/Verify Book Details bck","iterationVariableName":""}
+{"testCaseName":"Test Cases/Blocks/Browser/Close Browser","testCaseId":"Test Cases/Blocks/Browser/Close Browser","iterationVariableName":""}

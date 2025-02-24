@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Chrome 133.0.6943.127,,,24-02-2025 00:02:23,24-02-2025 00:02:38,14.779s,PASSED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Chrome 133.0.6943.127,,,24-02-2025 00:02:23,24-02-2025 00:02:29,5.759s,PASSED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""ableh1""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:23,24-02-2025 00:02:25,1.538s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:25,24-02-2025 00:02:25,0.132s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:25,24-02-2025 00:02:26,1.533s,PASSED
+"callTestCase(findTestCase(""Blocks/Account/Success Login""), [""username"":""ableh1"", ""password"":""TCdEHGtpZOAOScmyNwFgOw==""], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:26,24-02-2025 00:02:28,2.236s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:28,24-02-2025 00:02:29,0.194s,PASSED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Chrome 133.0.6943.127,,,24-02-2025 00:02:29,24-02-2025 00:02:33,4.655s,PASSED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""ucrit1""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:29,24-02-2025 00:02:29,0.692s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:29,24-02-2025 00:02:29,0.114s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:29,24-02-2025 00:02:31,1.429s,PASSED
+"callTestCase(findTestCase(""Blocks/Account/Success Login""), [""username"":""ableh1"", ""password"":""TCdEHGtpZOAOScmyNwFgOw==""], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:31,24-02-2025 00:02:33,2.216s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:33,24-02-2025 00:02:33,0.197s,PASSED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Chrome 133.0.6943.127,,,24-02-2025 00:02:33,24-02-2025 00:02:38,4.246s,PASSED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""hanabi""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:33,24-02-2025 00:02:34,0.700s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:34,24-02-2025 00:02:34,0.116s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:34,24-02-2025 00:02:35,0.832s,PASSED
+"callTestCase(findTestCase(""Blocks/Account/Success Login""), [""username"":""ableh1"", ""password"":""TCdEHGtpZOAOScmyNwFgOw==""], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:35,24-02-2025 00:02:37,2.423s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Close Browser""), [:], STOP_ON_FAILURE)",Chrome 133.0.6943.127,,,24-02-2025 00:02:37,24-02-2025 00:02:38,0.168s,PASSED

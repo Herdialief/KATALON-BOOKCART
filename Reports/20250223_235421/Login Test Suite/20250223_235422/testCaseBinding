@@ -1,0 +1,7 @@
+{"testCaseName":"Test Cases/Blocks/Browser/Open Browser","testCaseId":"Test Cases/Blocks/Browser/Open Browser","iterationVariableName":""}
+{"testCaseName":"Test Cases/Blocks/Browser/Maximize Window","testCaseId":"Test Cases/Blocks/Browser/Maximize Window","iterationVariableName":""}
+{"testCaseName":"Test Cases/Blocks/Browser/Navigate to URL","testCaseId":"Test Cases/Blocks/Browser/Navigate to URL","iterationVariableName":""}
+{"testCaseName":"Test Cases/Blocks/Account/Login","testCaseId":"Test Cases/Blocks/Account/Login","iterationVariableName":"","bindedValues":{"password":"\u0027TCdEHGtpZOAOScmyNwFgOw\u003d\u003d\u0027","username":"\u0027ableh1\u0027"}}
+{"testCaseName":"Test Cases/Blocks/Account/Login","testCaseId":"Test Cases/Blocks/Account/Login","iterationVariableName":"","bindedValues":{"password":"\u0027TCdEHGtpZOAOScmyNwFgOw\u003d\u003d\u0027","username":"\u0027ucrit1\u0027"}}
+{"testCaseName":"Test Cases/Blocks/Account/Login","testCaseId":"Test Cases/Blocks/Account/Login","iterationVariableName":"","bindedValues":{"password":"\u0027TCdEHGtpZOAOScmyNwFgOw\u003d\u003d\u0027","username":"\u0027hanabi\u0027"}}
+{"testCaseName":"Test Cases/Blocks/Browser/Close Browser","testCaseId":"Test Cases/Blocks/Browser/Close Browser","iterationVariableName":""}

@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,,,,24-02-2025 00:00:34,24-02-2025 00:00:35,0.595s,FAILED
+,,,,,,,
+Test Cases/Blocks/Account/Login,,,,24-02-2025 00:00:34,24-02-2025 00:00:35,0.436s,FAILED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""ucrit1""}",,,,,,,
+"click(findTestObject(""Header/span_Login""))",,,,24-02-2025 00:00:34,24-02-2025 00:00:35,0.252s,FAILED
+,,,,,,,
+Test Cases/Blocks/Account/Login,,,,24-02-2025 00:00:35,24-02-2025 00:00:35,0.027s,FAILED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""hanabi""}",,,,,,,
+"click(findTestObject(""Header/span_Login""))",,,,24-02-2025 00:00:35,24-02-2025 00:00:35,0.016s,FAILED

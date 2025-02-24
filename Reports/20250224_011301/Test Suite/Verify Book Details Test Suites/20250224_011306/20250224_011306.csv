@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Verify Book Details Test Suites,Firefox 117.0,,,24-02-2025 01:14:00,24-02-2025 01:16:54,2m - 53.726s,FAILED
+,,,,,,,
+Test Cases/Blocks/Browser/Open Browser,Firefox 117.0,,,24-02-2025 01:14:00,24-02-2025 01:14:02,2.534s,PASSED
+"openBrowser("""")",Firefox 117.0,,,24-02-2025 01:14:00,24-02-2025 01:14:02,2.442s,PASSED
+,,,,,,,
+Test Cases/Blocks/Browser/Maximize Window,Firefox 117.0,,,24-02-2025 01:14:02,24-02-2025 01:14:03,0.303s,PASSED
+maximizeWindow(),Firefox 117.0,,,24-02-2025 01:14:02,24-02-2025 01:14:03,0.277s,PASSED
+,,,,,,,
+Test Cases/Blocks/Browser/Navigate to URL,Firefox 117.0,,,24-02-2025 01:14:03,24-02-2025 01:14:04,1.576s,PASSED
+navigateToUrl(URL),Firefox 117.0,,,24-02-2025 01:14:03,24-02-2025 01:14:04,1.546s,PASSED
+,,,,,,,
+Test Cases/Blocks/Account/Success Login,Firefox 117.0,,,24-02-2025 01:14:04,24-02-2025 01:14:08,3.543s,PASSED
+"DATA BINDING - {""(Default) usern..."":""ableh1"",""(Default) passw..."":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d""}",,,,,,,
+"click(findTestObject(""Header/span_Login""))",Firefox 117.0,,,24-02-2025 01:14:04,24-02-2025 01:14:05,0.490s,PASSED
+"waitForElementPresent(findTestObject(""Login Page/mat-card-title_Login""), 0)",Firefox 117.0,,,24-02-2025 01:14:05,24-02-2025 01:14:05,0.459s,PASSED
+"setText(findTestObject(""Login Page/input_Username""), username)",Firefox 117.0,,,24-02-2025 01:14:05,24-02-2025 01:14:06,0.703s,PASSED
+"setEncryptedText(findTestObject(""Login Page/input_Password""), password)",Firefox 117.0,,,24-02-2025 01:14:06,24-02-2025 01:14:07,0.485s,PASSED
+"click(findTestObject(""Login Page/span_Login""))",Firefox 117.0,,,24-02-2025 01:14:07,24-02-2025 01:14:07,0.666s,PASSED
+"verifyElementPresent(findTestObject(""Header/span_Profile""), 0)",Firefox 117.0,,,24-02-2025 01:14:07,24-02-2025 01:14:08,0.694s,PASSED
+,,,,,,,
+Test Cases/Blocks/Verify Book Details,Firefox 117.0,,GenAI,24-02-2025 01:14:08,24-02-2025 01:14:09,1.585s,PASSED
+"DATA BINDING - {""(Default) buku"":""Harry Potter and the Half-Blood Prince""}",,,,,,,
+BookTitleObj = [:],Firefox 117.0,,,24-02-2025 01:14:08,24-02-2025 01:14:08,0.000s,PASSED
+if (buku.size() > 0),Firefox 117.0,,,24-02-2025 01:14:08,24-02-2025 01:14:08,0.007s,PASSED
+println(BookTitleObj),Firefox 117.0,,,24-02-2025 01:14:08,24-02-2025 01:14:08,0.002s,PASSED
+"click(findTestObject(""Object Repository/Booklist/"" + BookTitleObj[buku]))",Firefox 117.0,,,24-02-2025 01:14:08,24-02-2025 01:14:08,0.462s,PASSED
+"verifyElementPresent(findTestObject(""Book Details/mat-card-title_Book Details""), 0)",Firefox 117.0,,,24-02-2025 01:14:08,24-02-2025 01:14:09,0.558s,PASSED
+"verifyElementText(findTestObject(""Book Details/td_Title""), buku)",Firefox 117.0,,,24-02-2025 01:14:09,24-02-2025 01:14:09,0.244s,PASSED
+"hargaDetails = getText(findTestObject(""Book Details/td_Price""))",Firefox 117.0,,,24-02-2025 01:14:09,24-02-2025 01:14:09,0.243s,PASSED
+return hargaDetails,Firefox 117.0,,,24-02-2025 01:14:09,24-02-2025 01:14:09,0.000s,PASSED
+,,,,,,,
+Test Cases/Blocks/Wishlist/Add to wishlist,Firefox 117.0,,,24-02-2025 01:14:09,24-02-2025 01:14:16,6.397s,PASSED
+"verifyElementPresent(findTestObject(""Book Details/mat-card-title_Book Details""), 0)",Firefox 117.0,,,24-02-2025 01:14:09,24-02-2025 01:14:10,0.225s,PASSED
+"if (verifyElementPresent(findTestObject(""Book Details/span_Add to Wishlist""), 5, OPTIONAL))",Firefox 117.0,,,24-02-2025 01:14:10,24-02-2025 01:14:16,6.125s,PASSED
+else,Firefox 117.0,,,24-02-2025 01:14:16,24-02-2025 01:14:16,0.015s,PASSED
+,,,,,,,
+Test Cases/Blocks/Wishlist/Open Wishlist,Firefox 117.0,,,24-02-2025 01:14:16,24-02-2025 01:14:47,31.609s,PASSED
+"click(findTestObject(""Header/span_wishlist""))",Firefox 117.0,,,24-02-2025 01:14:16,24-02-2025 01:14:47,31.315s,PASSED
+"verifyElementPresent(findTestObject(""Wishlist/mat-card-title_My wishlist""), 0)",Firefox 117.0,,,24-02-2025 01:14:47,24-02-2025 01:14:47,0.268s,PASSED
+,,,,,,,
+Test Cases/Blocks/Wishlist/Verify Wishlishted book - Judul Harga,Firefox 117.0,,GenAI,24-02-2025 01:14:49,24-02-2025 01:14:49,0.021s,FAILED
+"DATA BINDING - {""(Default) buku"":""Harry Potter and the Half-Blood Prince""}",,,,,,,
+"verifyElementPresent(findTestObject(""Wishlist/a_bookDetailLink""), 0)",Firefox 117.0,,,24-02-2025 01:14:49,24-02-2025 01:14:49,0.012s,FAILED
+,,,,,,,
+Test Cases/Blocks/Wishlist/Clear wishlist,Firefox 117.0,,,24-02-2025 01:16:22,24-02-2025 01:16:53,31.018s,FAILED
+"click(findTestObject(""Wishlist/span_Clear Wishlist""))",Firefox 117.0,,,24-02-2025 01:16:22,24-02-2025 01:16:53,31.012s,FAILED
+,,,,,,,
+Test Cases/Blocks/Browser/Close Browser,Firefox 117.0,,,24-02-2025 01:16:54,24-02-2025 01:16:54,0.007s,PASSED
+closeBrowser(),Firefox 117.0,,,24-02-2025 01:16:54,24-02-2025 01:16:54,0.003s,PASSED

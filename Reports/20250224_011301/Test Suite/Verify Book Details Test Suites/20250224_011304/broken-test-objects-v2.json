@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Header/span_wishlist",
+      "brokenLocator": "button \u003e\u003e internal:has-text\u003d\"favorite0\"i",
+      "brokenLocatorMethod": "SMART_LOCATOR",
+      "proposedLocator": "//div[3]/button/span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250224_011301/Test Suite/Verify Book Details Test Suites/20250224_011304/Object Repository/Header/span_wishlist_XPATH.png"
+    }
+  ]
+}

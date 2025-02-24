@@ -6,12 +6,12 @@
    <elementGuidId>11432499-7ff5-461b-a461-64dd69185e2b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>th.mat-mdc-header-cell.mdc-data-table__header-cell.cdk-header-cell.cdk-column-price.mat-column-price.ng-star-inserted</value>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Price']/parent::*</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/following::th[1]</value>
+         <key>CSS</key>
+         <value>th.mat-mdc-header-cell.mdc-data-table__header-cell.cdk-header-cell.cdk-column-price.mat-column-price.ng-star-inserted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

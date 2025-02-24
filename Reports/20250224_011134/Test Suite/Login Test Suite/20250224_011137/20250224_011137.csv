@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Firefox 117.0,,,24-02-2025 01:11:52,24-02-2025 01:12:18,26.044s,PASSED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Firefox 117.0,,,24-02-2025 01:11:52,24-02-2025 01:12:02,10.002s,PASSED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""ableh1""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:11:52,24-02-2025 01:11:56,3.433s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:11:56,24-02-2025 01:11:56,0.354s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:11:56,24-02-2025 01:11:57,1.192s,PASSED
+"click(findTestObject(""Header/span_Login""))",Firefox 117.0,,,24-02-2025 01:11:57,24-02-2025 01:11:58,0.779s,PASSED
+"waitForElementPresent(findTestObject(""Login Page/mat-card-title_Login""), 0)",Firefox 117.0,,,24-02-2025 01:11:58,24-02-2025 01:11:58,0.257s,PASSED
+"setText(findTestObject(""Login Page/input_Username""), username)",Firefox 117.0,,,24-02-2025 01:11:58,24-02-2025 01:11:59,0.937s,PASSED
+"setEncryptedText(findTestObject(""Login Page/input_Password""), password)",Firefox 117.0,,,24-02-2025 01:11:59,24-02-2025 01:12:00,0.486s,PASSED
+"waitForElementClickable(findTestObject(""Header/span_Login""), 10, STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:12:00,24-02-2025 01:12:00,0.536s,PASSED
+"click(findTestObject(""Login Page/span_Login""))",Firefox 117.0,,,24-02-2025 01:12:00,24-02-2025 01:12:01,0.461s,PASSED
+"verifyElementPresent(findTestObject(""Header/span_Profile""), 5)",Firefox 117.0,,,24-02-2025 01:12:01,24-02-2025 01:12:02,0.697s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:12:02,24-02-2025 01:12:02,0.727s,PASSED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Firefox 117.0,,,24-02-2025 01:12:02,24-02-2025 01:12:10,7.851s,PASSED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""ucrit1""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:12:02,24-02-2025 01:12:04,2.012s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:12:04,24-02-2025 01:12:05,0.356s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:12:05,24-02-2025 01:12:06,1.082s,PASSED
+"click(findTestObject(""Header/span_Login""))",Firefox 117.0,,,24-02-2025 01:12:06,24-02-2025 01:12:07,0.732s,PASSED
+"waitForElementPresent(findTestObject(""Login Page/mat-card-title_Login""), 0)",Firefox 117.0,,,24-02-2025 01:12:07,24-02-2025 01:12:07,0.444s,PASSED
+"setText(findTestObject(""Login Page/input_Username""), username)",Firefox 117.0,,,24-02-2025 01:12:07,24-02-2025 01:12:08,0.700s,PASSED
+"setEncryptedText(findTestObject(""Login Page/input_Password""), password)",Firefox 117.0,,,24-02-2025 01:12:08,24-02-2025 01:12:08,0.472s,PASSED
+"waitForElementClickable(findTestObject(""Header/span_Login""), 10, STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:12:08,24-02-2025 01:12:09,0.459s,PASSED
+"click(findTestObject(""Login Page/span_Login""))",Firefox 117.0,,,24-02-2025 01:12:09,24-02-2025 01:12:09,0.439s,PASSED
+"verifyElementPresent(findTestObject(""Header/span_Profile""), 5)",Firefox 117.0,,,24-02-2025 01:12:09,24-02-2025 01:12:10,0.570s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:12:10,24-02-2025 01:12:10,0.573s,PASSED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,Firefox 117.0,,,24-02-2025 01:12:10,24-02-2025 01:12:18,8.051s,PASSED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""hanabi""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:12:10,24-02-2025 01:12:12,1.774s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Maximize Window""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:12:12,24-02-2025 01:12:12,0.333s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Navigate to URL""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:12:12,24-02-2025 01:12:14,1.499s,PASSED
+"click(findTestObject(""Header/span_Login""))",Firefox 117.0,,,24-02-2025 01:12:14,24-02-2025 01:12:14,0.675s,PASSED
+"waitForElementPresent(findTestObject(""Login Page/mat-card-title_Login""), 0)",Firefox 117.0,,,24-02-2025 01:12:14,24-02-2025 01:12:15,0.444s,PASSED
+"setText(findTestObject(""Login Page/input_Username""), username)",Firefox 117.0,,,24-02-2025 01:12:15,24-02-2025 01:12:16,0.704s,PASSED
+"setEncryptedText(findTestObject(""Login Page/input_Password""), password)",Firefox 117.0,,,24-02-2025 01:12:16,24-02-2025 01:12:16,0.472s,PASSED
+"waitForElementClickable(findTestObject(""Header/span_Login""), 10, STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:12:16,24-02-2025 01:12:17,0.466s,PASSED
+"click(findTestObject(""Login Page/span_Login""))",Firefox 117.0,,,24-02-2025 01:12:17,24-02-2025 01:12:17,0.441s,PASSED
+"verifyElementPresent(findTestObject(""Header/span_Profile""), 5)",Firefox 117.0,,,24-02-2025 01:12:17,24-02-2025 01:12:18,0.558s,PASSED
+"callTestCase(findTestCase(""Blocks/Browser/Close Browser""), [:], STOP_ON_FAILURE)",Firefox 117.0,,,24-02-2025 01:12:18,24-02-2025 01:12:18,0.675s,PASSED

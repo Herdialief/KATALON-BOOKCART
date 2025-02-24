@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,,,,24-02-2025 16:48:18,24-02-2025 16:48:43,25.700s,FAILED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,,,,24-02-2025 16:48:23,24-02-2025 16:48:24,1.341s,FAILED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""ableh1""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",,,,24-02-2025 16:48:23,24-02-2025 16:48:24,1.328s,FAILED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,,,,24-02-2025 16:48:31,24-02-2025 16:48:33,1.447s,FAILED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""ucrit1""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",,,,24-02-2025 16:48:31,24-02-2025 16:48:33,1.438s,FAILED
+,,,,,,,
+Test Cases/Scenario/02. Login/SC02TC001 Succces Login,,,,24-02-2025 16:48:42,24-02-2025 16:48:43,1.387s,FAILED
+"DATA BINDING - {""password"":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"",""username"":""hanabi""}",,,,,,,
+"callTestCase(findTestCase(""Blocks/Browser/Open Browser""), [:], STOP_ON_FAILURE)",,,,24-02-2025 16:48:42,24-02-2025 16:48:43,1.378s,FAILED

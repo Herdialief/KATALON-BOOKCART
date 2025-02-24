@@ -23,8 +23,19 @@ WebUI.callTestCase(findTestCase('Blocks/Browser/Maximize Window'), [:], FailureH
 
 WebUI.callTestCase(findTestCase('Blocks/Browser/Navigate to URL'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Blocks/Account/Success Login'), [('username') : 'ableh1', ('password') : 'TCdEHGtpZOAOScmyNwFgOw=='], 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Header/span_Login'))
+
+WebUI.waitForElementPresent(findTestObject('Login Page/mat-card-title_Login'), 0)
+
+WebUI.setText(findTestObject('Login Page/input_Username'), username)
+
+WebUI.setEncryptedText(findTestObject('Login Page/input_Password'), password)
+
+WebUI.waitForElementClickable(findTestObject('Header/span_Login'), 10, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Login Page/span_Login'))
+
+WebUI.verifyElementPresent(findTestObject('Header/span_Profile'), 5)
 
 WebUI.callTestCase(findTestCase('Blocks/Browser/Close Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 

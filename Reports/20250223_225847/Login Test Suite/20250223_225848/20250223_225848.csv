@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Test Suite,Chrome 133.0.6943.127,,,23-02-2025 22:58:59,23-02-2025 22:59:05,6.299s,PASSED
+,,,,,,,
+Test Cases/Blocks/Browser/Open Browser,Chrome 133.0.6943.127,,,23-02-2025 22:58:59,23-02-2025 22:59:00,1.562s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.127,,,23-02-2025 22:58:59,23-02-2025 22:59:00,1.464s,PASSED
+,,,,,,,
+Test Cases/Blocks/Browser/Maximize Window,Chrome 133.0.6943.127,,,23-02-2025 22:59:00,23-02-2025 22:59:00,0.088s,PASSED
+maximizeWindow(),Chrome 133.0.6943.127,,,23-02-2025 22:59:00,23-02-2025 22:59:00,0.056s,PASSED
+,,,,,,,
+Test Cases/Blocks/Browser/Navigate to URL,Chrome 133.0.6943.127,,,23-02-2025 22:59:00,23-02-2025 22:59:02,1.180s,PASSED
+navigateToUrl(URL),Chrome 133.0.6943.127,,,23-02-2025 22:59:01,23-02-2025 22:59:02,1.150s,PASSED
+,,,,,,,
+Test Cases/Blocks/Account/Success Login,Chrome 133.0.6943.127,,,23-02-2025 22:59:02,23-02-2025 22:59:05,3.163s,PASSED
+"DATA BINDING - {""(Default) usern..."":""ableh1"",""(Default) passw..."":""TCdEHGtpZOAOScmyNwFgOw\u003d\u003d""}",,,,,,,
+"click(findTestObject(""Header/span_Login""))",Chrome 133.0.6943.127,,,23-02-2025 22:59:02,23-02-2025 22:59:03,1.247s,PASSED
+"waitForElementPresent(findTestObject(""Login Page/mat-card-title_Login""), 0)",Chrome 133.0.6943.127,,,23-02-2025 22:59:03,23-02-2025 22:59:04,0.572s,PASSED
+"setText(findTestObject(""Login Page/input_Username""), username)",Chrome 133.0.6943.127,,,23-02-2025 22:59:04,23-02-2025 22:59:04,0.537s,PASSED
+"setEncryptedText(findTestObject(""Login Page/input_Password""), password)",Chrome 133.0.6943.127,,,23-02-2025 22:59:04,23-02-2025 22:59:04,0.304s,PASSED
+"click(findTestObject(""Login Page/span_Login""))",Chrome 133.0.6943.127,,,23-02-2025 22:59:04,23-02-2025 22:59:05,0.276s,PASSED
+"verifyElementPresent(findTestObject(""Header/span_Profile""), 0)",Chrome 133.0.6943.127,,,23-02-2025 22:59:05,23-02-2025 22:59:05,0.183s,PASSED
+,,,,,,,
+Test Cases/Blocks/Browser/Close Browser,Chrome 133.0.6943.127,,,23-02-2025 22:59:05,23-02-2025 22:59:05,0.164s,PASSED
+closeBrowser(),Chrome 133.0.6943.127,,,23-02-2025 22:59:05,23-02-2025 22:59:05,0.133s,PASSED

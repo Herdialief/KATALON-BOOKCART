@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify Book Details Test Suites" time="43.748" tests="9" failures="0" errors="0">
+   <testsuite name="Verify Book Details Test Suites" tests="9" failures="0" errors="0" time="43.748" skipped="0" timestamp="24-02-2025T01:04:40" hostname="herdi - Alief" id="Test Suites/Verify Book Details Test Suites">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\Katalon Project\\Git\\KATALON-BOOKCART\\Reports\\20250224_010434\\Verify Book Details Test Suites\\20250224_010435"/>
+         <property name="logFiles" value="D:\\Katalon Project\\Git\\KATALON-BOOKCART\\Reports\\20250224_010434\\Verify Book Details Test Suites\\20250224_010435\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="herdi - Alief"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 133.0.6943.127"/>
+         <property name="hostAddress" value="192.168.18.82"/>
+         <property name="sessionId" value="c8420f48aadfbdea22f04a9153267d23"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Blocks/Browser/Open Browser" time="1.527" classname="Test Cases/Blocks/Browser/Open Browser" status="PASSED">
+         <system-out><![CDATA[24-02-2025T01:04:41 - [TEST_CASE][PASSED] - Test Cases/Blocks/Browser/Open Browser: Test Cases/Blocks/Browser/Open Browser
+
+24-02-2025T01:04:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+24-02-2025T01:04:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+24-02-2025T01:04:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+24-02-2025T01:04:42 - [MESSAGE][PASSED] - Browser is opened with url: '']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Blocks/Browser/Maximize Window" time="0.081" classname="Test Cases/Blocks/Browser/Maximize Window" status="PASSED">
+         <system-out><![CDATA[24-02-2025T01:04:42 - [TEST_CASE][PASSED] - Test Cases/Blocks/Browser/Maximize Window: Test Cases/Blocks/Browser/Maximize Window
+
+24-02-2025T01:04:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+24-02-2025T01:04:42 - [MESSAGE][PASSED] - Current window maximized]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Blocks/Browser/Navigate to URL" time="0.879" classname="Test Cases/Blocks/Browser/Navigate to URL" status="PASSED">
+         <system-out><![CDATA[24-02-2025T01:04:42 - [TEST_CASE][PASSED] - Test Cases/Blocks/Browser/Navigate to URL: Test Cases/Blocks/Browser/Navigate to URL
+
+24-02-2025T01:04:42 - [TEST_STEP][PASSED] - navigateToUrl(URL): Navigate to 'https://bookcart.azurewebsites.net/' successfully
+
+24-02-2025T01:04:43 - [MESSAGE][PASSED] - Navigate to 'https://bookcart.azurewebsites.net/' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Blocks/Account/Success Login" time="3.393" classname="Test Cases/Blocks/Account/Success Login" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) usern...":"ableh1","(Default) passw...":"TCdEHGtpZOAOScmyNwFgOw\u003d\u003d"}]]></property>
+         </properties>
+         <system-out><![CDATA[24-02-2025T01:04:43 - [TEST_CASE][PASSED] - Test Cases/Blocks/Account/Success Login: Test Cases/Blocks/Account/Success Login
+
+24-02-2025T01:04:43 - [TEST_STEP][PASSED] - click(findTestObject("Header/span_Login")): Object: 'Object Repository/Header/span_Login' is clicked on
+
+24-02-2025T01:04:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/span_Login' is clicked on
+
+24-02-2025T01:04:44 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Login Page/mat-card-title_Login"), 0): Object 'Object Repository/Login Page/mat-card-title_Login' is present
+
+24-02-2025T01:04:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-02-2025T01:04:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login Page/mat-card-title_Login' is present
+
+24-02-2025T01:04:44 - [TEST_STEP][PASSED] - setText(findTestObject("Login Page/input_Username"), username): Text 'ableh1' is set on object 'Object Repository/Login Page/input_Username'
+
+24-02-2025T01:04:45 - [MESSAGE][PASSED] - Text 'ableh1' is set on object 'Object Repository/Login Page/input_Username'
+
+24-02-2025T01:04:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Login Page/input_Password"), password): Text ****** has been set on object 'Object Repository/Login Page/input_Password'
+
+24-02-2025T01:04:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login Page/input_Password'
+
+24-02-2025T01:04:45 - [TEST_STEP][PASSED] - click(findTestObject("Login Page/span_Login")): Object: 'Object Repository/Login Page/span_Login' is clicked on
+
+24-02-2025T01:04:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/span_Login' is clicked on
+
+24-02-2025T01:04:45 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Header/span_Profile"), 0): Object 'Object Repository/Header/span_Profile' is present
+
+24-02-2025T01:04:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-02-2025T01:04:46 - [MESSAGE][PASSED] - Object 'Object Repository/Header/span_Profile' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Blocks/Verify Book Details" time="1.472" classname="Test Cases/Blocks/Verify Book Details" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) buku":"Harry Potter and the Half-Blood Prince"}]]></property>
+         </properties>
+         <system-out><![CDATA[24-02-2025T01:04:46 - [TEST_CASE][PASSED] - Test Cases/Blocks/Verify Book Details: Test Cases/Blocks/Verify Book Details
+
+24-02-2025T01:04:46 - [TEST_STEP][PASSED] - BookTitleObj = [:]: null
+
+24-02-2025T01:04:46 - [TEST_STEP][PASSED] - if (buku.size() > 0): null
+
+24-02-2025T01:04:46 - [TEST_STEP][PASSED] - BookTitleObj[buku] = "strong_" + buku: null
+
+24-02-2025T01:04:46 - [TEST_STEP][PASSED] - println(BookTitleObj): null
+
+24-02-2025T01:04:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booklist/" + BookTitleObj[buku])): Object: 'Object Repository/Booklist/strong_Harry Potter and the Half-Blood Prince' is clicked on
+
+24-02-2025T01:04:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Booklist/strong_Harry Potter and the Half-Blood Prince' is clicked on
+
+24-02-2025T01:04:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Book Details/mat-card-title_Book Details"), 0): Object 'Object Repository/Book Details/mat-card-title_Book Details' is present
+
+24-02-2025T01:04:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-02-2025T01:04:47 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/mat-card-title_Book Details' is present
+
+24-02-2025T01:04:47 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Book Details/td_Title"), buku): Actual text and expected text of test object 'Object Repository/Book Details/td_Title' are matched.
+
+24-02-2025T01:04:48 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Details/td_Title' are matched.
+
+24-02-2025T01:04:48 - [TEST_STEP][PASSED] - hargaDetails = getText(findTestObject("Book Details/td_Price")): Text of object 'Object Repository/Book Details/td_Price' is: '₹433.00'
+
+24-02-2025T01:04:48 - [MESSAGE][PASSED] - Text of object 'Object Repository/Book Details/td_Price' is: '₹433.00'
+
+24-02-2025T01:04:48 - [TEST_STEP][PASSED] - return hargaDetails: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Blocks/Wishlist/Add to wishlist" time="0.337" classname="Test Cases/Blocks/Wishlist/Add to wishlist" status="PASSED">
+         <system-out><![CDATA[24-02-2025T01:04:48 - [TEST_CASE][PASSED] - Test Cases/Blocks/Wishlist/Add to wishlist: Test Cases/Blocks/Wishlist/Add to wishlist
+
+24-02-2025T01:04:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Book Details/mat-card-title_Book Details"), 0): Object 'Object Repository/Book Details/mat-card-title_Book Details' is present
+
+24-02-2025T01:04:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-02-2025T01:04:48 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/mat-card-title_Book Details' is present
+
+24-02-2025T01:04:48 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("Book Details/span_Add to Wishlist"), 5, OPTIONAL)): null
+
+24-02-2025T01:04:48 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/span_Add to Wishlist' is present
+
+24-02-2025T01:04:48 - [TEST_STEP][PASSED] - click(findTestObject("Book Details/span_Add to Wishlist")): Object: 'Object Repository/Book Details/span_Add to Wishlist' is clicked on
+
+24-02-2025T01:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Book Details/span_Add to Wishlist' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Blocks/Wishlist/Open Wishlist" time="1.054" classname="Test Cases/Blocks/Wishlist/Open Wishlist" status="PASSED">
+         <system-out><![CDATA[24-02-2025T01:04:48 - [TEST_CASE][PASSED] - Test Cases/Blocks/Wishlist/Open Wishlist: Test Cases/Blocks/Wishlist/Open Wishlist
+
+24-02-2025T01:04:48 - [TEST_STEP][PASSED] - click(findTestObject("Header/span_wishlist")): Object: 'Object Repository/Header/span_wishlist' is clicked on
+
+24-02-2025T01:04:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Header/span_wishlist' is clicked on
+
+24-02-2025T01:04:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wishlist/mat-card-title_My wishlist"), 0): Object 'Object Repository/Wishlist/mat-card-title_My wishlist' is present
+
+24-02-2025T01:04:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-02-2025T01:04:49 - [MESSAGE][PASSED] - Object 'Object Repository/Wishlist/mat-card-title_My wishlist' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Blocks/Wishlist/Verify Wishlishted book - Judul Harga" time="34.728" classname="Test Cases/Blocks/Wishlist/Verify Wishlishted book - Judul Harga" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"(Default) buku":"Harry Potter and the Half-Blood Prince"}]]></property>
+         </properties>
+         <system-out><![CDATA[24-02-2025T01:04:49 - [TEST_CASE][PASSED] - Test Cases/Blocks/Wishlist/Verify Wishlishted book - Judul Harga: Test Cases/Blocks/Wishlist/Verify Wishlishted book - Judul Harga
+
+24-02-2025T01:04:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Wishlist/a_bookDetailLink"), 0): Object 'Object Repository/Wishlist/a_bookDetailLink' is present
+
+24-02-2025T01:04:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-02-2025T01:04:50 - [MESSAGE][PASSED] - Object 'Object Repository/Wishlist/a_bookDetailLink' is present
+
+24-02-2025T01:04:50 - [TEST_STEP][PASSED] - bookLinkTitle = getText(findTestObject("Wishlist/a_bookDetailLink")): Text of object 'Object Repository/Wishlist/a_bookDetailLink' is: 'Harry Potter and the Half-Blood Prince'
+
+24-02-2025T01:04:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Wishlist/a_bookDetailLink' is: 'Harry Potter and the Half-Blood Prince'
+
+24-02-2025T01:04:50 - [TEST_STEP][PASSED] - verifyMatch(bookLinkTitle, buku, false): Actual text 'Harry Potter and the Half-Blood Prince' and expected text 'Harry Potter and the Half-Blood Prince' are matched 
+
+24-02-2025T01:04:50 - [MESSAGE][PASSED] - Actual text 'Harry Potter and the Half-Blood Prince' and expected text 'Harry Potter and the Half-Blood Prince' are matched 
+
+24-02-2025T01:04:50 - [TEST_STEP][PASSED] - getText(findTestObject("Wishlist/th_Price")): Text of object 'Object Repository/Wishlist/th_Price' is: 'Price'
+
+24-02-2025T01:04:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Wishlist/th_Price' is: 'Price'
+
+24-02-2025T01:04:50 - [TEST_STEP][PASSED] - hargaDetails = callTestCase(findTestCase("Test Cases/Blocks/Verify Book Details"), [:]): Call Test Case 'Test Cases/Blocks/Verify Book Details' successfully
+
+24-02-2025T01:04:50 - [TEST_CASE][PASSED] - Test Cases/Blocks/Verify Book Details: Test Cases/Blocks/Verify Book Details
+
+24-02-2025T01:04:50 - [TEST_STEP][PASSED] - BookTitleObj = [:]: null
+
+24-02-2025T01:04:50 - [TEST_STEP][PASSED] - if (buku.size() > 0): null
+
+24-02-2025T01:04:50 - [TEST_STEP][PASSED] - BookTitleObj[buku] = "strong_" + buku: null
+
+24-02-2025T01:04:50 - [TEST_STEP][PASSED] - println(BookTitleObj): null
+
+24-02-2025T01:04:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Booklist/" + BookTitleObj[buku])): Object: 'Object Repository/Booklist/strong_Harry Potter and the Half-Blood Prince' is clicked on
+
+24-02-2025T01:05:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[4]/following::strong[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+24-02-2025T01:05:21 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Booklist/strong_Harry Potter and the Half-Blood Prince'. Try using Self-healing.
+
+24-02-2025T01:05:22 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[4]/following::strong[1]'.
+
+24-02-2025T01:05:22 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Harry Potter and the Order of the Phoenix'])[1]/following::strong[1]'.
+
+24-02-2025T01:05:22 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[5]/preceding::strong[1]'.
+
+24-02-2025T01:05:22 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Harry Potter and the Deathly Hallows'])[1]/preceding::strong[1]'.
+
+24-02-2025T01:05:22 - [MESSAGE][INFO] - [SELF-HEALING] Working Locator: '//*/text()[normalize-space(.)='Harry Potter and the Half-Blood Prince']/parent::*'.
+
+24-02-2025T01:05:23 - [MESSAGE][INFO] - [SELF-HEALING] Screenshot: D:/Katalon Project/Git/KATALON-BOOKCART/Reports/Self-healing/Object Repository/Booklist/strong_Harry Potter and the Half-Blood Prince_neighbor.png
+
+24-02-2025T01:05:23 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Booklist/strong_Harry Potter and the Half-Blood Prince' was broken. Propose an alternative one: '//*/text()[normalize-space(.)='Harry Potter and the Half-Blood Prince']/parent::*'.
+
+24-02-2025T01:05:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Booklist/strong_Harry Potter and the Half-Blood Prince' is clicked on
+
+24-02-2025T01:05:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Book Details/mat-card-title_Book Details"), 0): Object 'Object Repository/Book Details/mat-card-title_Book Details' is present
+
+24-02-2025T01:05:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-02-2025T01:05:23 - [MESSAGE][PASSED] - Object 'Object Repository/Book Details/mat-card-title_Book Details' is present
+
+24-02-2025T01:05:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Book Details/td_Title"), buku): Actual text and expected text of test object 'Object Repository/Book Details/td_Title' are matched.
+
+24-02-2025T01:05:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Book Details/td_Title' are matched.
+
+24-02-2025T01:05:24 - [TEST_STEP][PASSED] - hargaDetails = getText(findTestObject("Book Details/td_Price")): Text of object 'Object Repository/Book Details/td_Price' is: '₹433.00'
+
+24-02-2025T01:05:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Book Details/td_Price' is: '₹433.00'
+
+24-02-2025T01:05:24 - [TEST_STEP][PASSED] - return hargaDetails: null
+
+24-02-2025T01:05:24 - [MESSAGE][INFO] - 
+
+24-02-2025T01:05:24 - [MESSAGE][INFO] - ===================== Self-healing Report ====================
+
+24-02-2025T01:05:24 - [MESSAGE][INFO] - One of the failed test object locators has been recovered by Self-healing. Please refer to the Self-healing Insights tab for more details.
+
+24-02-2025T01:05:24 - [MESSAGE][INFO] - To learn more about Self-healing, please read https://docs.katalon.com/katalon-studio/docs/self-healing.html
+
+24-02-2025T01:05:24 - [MESSAGE][INFO] - ==============================================================
+
+24-02-2025T01:05:24 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Blocks/Verify Book Details' successfully
+
+24-02-2025T01:05:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Wishlist/td_priceWishlist"), hargaDetails): Actual text and expected text of test object 'Object Repository/Wishlist/td_priceWishlist' are matched.
+
+24-02-2025T01:05:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Wishlist/td_priceWishlist' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Blocks/Browser/Close Browser" time="0.16" classname="Test Cases/Blocks/Browser/Close Browser" status="PASSED">
+         <system-out><![CDATA[24-02-2025T01:05:24 - [TEST_CASE][PASSED] - Test Cases/Blocks/Browser/Close Browser: Test Cases/Blocks/Browser/Close Browser
+
+24-02-2025T01:05:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+24-02-2025T01:05:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-02-2025T01:04:40 - [TEST_SUITE][PASSED] - Verify Book Details Test Suites: Test Cases/Blocks/Browser/Close Browser]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

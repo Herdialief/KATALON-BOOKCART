@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Booklist/strong_Harry Potter and the Half-Blood Prince",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Add to Cart\u0027])[4]/following::strong[1]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Harry Potter and the Half-Blood Prince\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250224_010758/Verify Book Details Test Suites/20250224_010758/Object Repository/Booklist/strong_Harry Potter and the Half-Blood Prince_neighbor.png"
+    }
+  ]
+}
